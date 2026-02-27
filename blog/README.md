@@ -6,7 +6,7 @@ Weekly technical updates from the Republike engineering team, published every Fr
 
 | Date | Title | Highlights |
 |---|---|---|
-| | | |
+| [Feb 28](2026-02-28.md) | Testing the foundations before we touch them | Integration test layer, trials/referrals investigation, reputation audit |
 
 ---
 

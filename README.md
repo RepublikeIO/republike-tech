@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Republike" width="120" />
+  <img src="assets/logo.svg" alt="Republike" width="120" />
 </p>
 
 <h1 align="center">Republike — Technical Overview</h1>
@@ -198,7 +198,7 @@ Every Friday we publish what shipped, what's in progress, and what's next.
 
 | Date | Title |
 |---|---|
-| *Coming soon* | [First edition →](blog/) |
+| Feb 28, 2026 | [Testing the foundations before we touch them](blog/2026-02-28.md) |
 
 Browse all entries in the [`blog/`](blog/) directory.
 
