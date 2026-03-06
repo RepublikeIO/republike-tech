@@ -6,6 +6,7 @@ Weekly technical updates from the Republike engineering team, published every Fr
 
 | Date | Title | Highlights |
 |---|---|---|
+| [Mar 6](2026-03-06.md) | Fixing what users see, testing what they don't | Image display bug fix, Playwright visual testing, Stripe trial investigation, mobile CI |
 | [Feb 28](2026-02-28.md) | Testing the foundations before we touch them | Integration test layer, trials/referrals investigation, reputation audit |
 
 ---
