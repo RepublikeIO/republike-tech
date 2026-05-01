@@ -56,7 +56,7 @@ The `UserContract` Prisma model is already shaped to mirror what the on-chain co
 
 ---
 
-## Phase 1 — Immediate (in progress)
+## Phase 1
 
 ### Goal: establish the off-chain contract primitives
 
@@ -83,7 +83,7 @@ The contract model IS the on-chain model. When we deploy the smart contract, its
 
 ---
 
-## Phase 2 — Near-term (weeks)
+## Phase 2
 
 ### Goal: non-custodial wallets + L2 selection
 
@@ -115,7 +115,7 @@ Candidates under evaluation:
 
 ---
 
-## Phase 3 — Mid-term (months)
+## Phase 3
 
 ### Goal: on-chain role registry + indexer
 
@@ -149,7 +149,7 @@ After Phase 3, every citizen's role is backed by an immutable, timestamped, publ
 
 ---
 
-## Phase 4 — Long-term (6-12 months)
+## Phase 4
 
 ### Goal: zero-knowledge identity + verifiable credentials
 
@@ -194,12 +194,12 @@ The ultimate goal: a citizen's identity, reputation, roles, and participation hi
 
 ## Timeline
 
-| Phase | Scope | Status | Horizon |
+| Phase | Scope | Status |
 |-------|-------|--------|---------|
-| 1 | Off-chain contract primitives | Built, deploying | Weeks |
-| 2 | Non-custodial wallets + L2 selection | Research + build | Weeks |
-| 3 | On-chain role registry + indexer | Build + migrate | Months |
-| 4 | ZK identity + AURE token | Research + build | 6-12 months |
+| 1 | Off-chain contract primitives | Built, deploying |
+| 2 | Non-custodial wallets + L2 selection | Research + build |
+| 3 | On-chain role registry + indexer | Build + migrate |
+| 4 | ZK identity + AURE token | Research + build |
 
 ---
 
