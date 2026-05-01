@@ -12,7 +12,7 @@ The on-chain migration is the project's answer to that structural vulnerability.
 
 ## Principles
 
-**1. Users never see the chain.** No wallet setup, no seed phrases, no gas fees, no MetaMask. The server manages custodial wallets derived deterministically from each user's identity. The blockchain is infrastructure, not interface.
+**1. Users never see the chain.** No wallet setup, no seed phrases, no gas fees, no MetaMask. The server derives non-custodial wallets deterministically from each user's identity — the keys belong to the user, the server holds them on their behalf until they choose to take ownership. The blockchain is infrastructure, not interface.
 
 **2. The app doesn't change.** The read path (how the app checks "can this user do this?") stays exactly as it is. The write path (how a role gets granted or revoked) is what migrates: from a direct database write to an on-chain transaction confirmed by an indexer that writes to the same database. The app reads from the database either way.
 
@@ -85,9 +85,9 @@ The contract model IS the on-chain model. When we deploy the smart contract, its
 
 ## Phase 2 — Near-term (weeks)
 
-### Goal: custodial wallets + L2 selection
+### Goal: non-custodial wallets + L2 selection
 
-**2a. Custodial wallet service**
+**2a. Non-custodial wallet service**
 
 Every user gets a blockchain address derived deterministically from a master seed + their user ID (HD wallet derivation). The private keys never leave the server. The user never interacts with crypto concepts.
 
@@ -197,7 +197,7 @@ The ultimate goal: a citizen's identity, reputation, roles, and participation hi
 | Phase | Scope | Status | Horizon |
 |-------|-------|--------|---------|
 | 1 | Off-chain contract primitives | Built, deploying | Weeks |
-| 2 | Custodial wallets + L2 selection | Research + build | Weeks |
+| 2 | Non-custodial wallets + L2 selection | Research + build | Weeks |
 | 3 | On-chain role registry + indexer | Build + migrate | Months |
 | 4 | ZK identity + AURE token | Research + build | 6-12 months |
 
