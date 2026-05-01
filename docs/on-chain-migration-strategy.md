@@ -195,7 +195,7 @@ The ultimate goal: a citizen's identity, reputation, roles, and participation hi
 ## Timeline
 
 | Phase | Scope | Status |
-|-------|-------|--------|---------|
+|-------|-------|--------|
 | 1 | Off-chain contract primitives | Built, deploying |
 | 2 | Non-custodial wallets + L2 selection | Research + build |
 | 3 | On-chain role registry + indexer | Build + migrate |
