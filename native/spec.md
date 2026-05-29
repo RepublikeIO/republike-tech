@@ -38,6 +38,7 @@ Identical decisions on both platforms where possible; platform-native where not.
 | Crash / errors | Sentry self-hosted | Sentry self-hosted |
 | Analytics | Server-side aggregate funnel counters (no SDK) — see [analytics blog post](../blog/2026-05-24.md) | Same |
 | Localization | `.xcstrings` catalogs, EN/FR/IT/ES | `strings.xml` per locale, EN/FR/IT/ES |
+| Project generation | **Tuist** (`Project.swift` manifests, `.xcodeproj` not committed) | Gradle KTS + Version Catalogs |
 | Lint | SwiftLint + SwiftFormat | detekt + ktlint |
 | CI | Xcode Cloud (or GH Actions w/ macOS runner) | GH Actions, Linux runner |
 
@@ -67,6 +68,20 @@ UI/
 ```
 
 **Rule.** No `UI/Screens/` directory holds raw colors, fonts, or padding — everything routes through `UI/Atoms` and the Theme tokens. PR reviewers reject violations.
+
+### iOS project layout via Tuist
+
+The iOS project is defined in [Tuist](https://tuist.io) manifests (`Project.swift`, `Workspace.swift`, `Tuist/Config.swift`). The generated `.xcodeproj` is git-ignored — only the manifests are committed. Engineers run `tuist generate` to materialise the project. This:
+
+- Keeps PR diffs reviewable (manifests are Swift, not opaque `.pbxproj` XML).
+- Makes the module layout above declarative — each `Core/*` and `UI/*` is its own Tuist target.
+- Avoids the "Xcode added 800 lines to project.pbxproj" merge conflicts that plague hand-edited projects.
+- Mirrors what Gradle Version Catalogs do for the Android side.
+
+The `Tuist/` folder contains:
+- `Config.swift` — Tuist configuration (swift version, plugins)
+- `ProjectDescriptionHelpers/` — shared helpers for target descriptions
+- `Templates/` — code-gen templates if needed later
 
 ## 5. Atomic design discipline
 
