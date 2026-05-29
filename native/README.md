@@ -19,7 +19,11 @@ Spec docs, design tokens, ADRs, and the dependency map for the native iOS + Andr
 
 | File | Purpose |
 |---|---|
+| [`phase-3-nav-skeleton.md`](./phase-3-nav-skeleton.md) | Tab bar + coordinator / dispatcher skeleton, placeholders for all 5 tabs |
 | [`phase-4-design-system.md`](./phase-4-design-system.md) | Atomic-design components, dependency order, per-component APIs |
+| [`phase-5-auth.md`](./phase-5-auth.md) | 17 auth + onboarding + paywall screens with flow graph + IAP integration |
+| [`phase-6-feed.md`](./phase-6-feed.md) | Feed shell, post card, reactions, post detail, comments, media playback |
+| [`phase-7-profile.md`](./phase-7-profile.md) | Own + other profile, edit profile, settings, follower / following lists |
 
 ### Operational docs
 
