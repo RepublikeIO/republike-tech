@@ -1,0 +1,17 @@
+key,en,fr,it,es,context
+common.cancel,Cancel,Annuler,Annulla,Cancelar,Dismiss/cancel button on dialogs and forms
+common.continue,Continue,Continuer,Continua,Continuar,Primary CTA to advance a flow
+common.save,Save,Enregistrer,Salva,Guardar,Save button on forms and editors
+common.ok,OK,OK,OK,OK,mt: Acknowledge button on alerts (it/es)
+common.retry,Retry,Réessayer,Riprova,Reintentar,Retry button after a failed action
+common.close,Close,Fermer,Chiudi,Cerrar,Close button on sheets and modals
+common.done,Done,Terminé,Fatto,Hecho,Confirm/finish button completing a task
+common.back,Back,Retour,Indietro,Atrás,mt: Navigation back button (fr/it/es)
+common.next,Next,Suivant,Avanti,Siguiente,Advance to the next step
+common.loading,Loading…,Chargement…,Caricamento…,Cargando…,Loading indicator label
+error.generic,Something went wrong. Please try again.,Une erreur est survenue. Veuillez réessayer.,Si è verificato un errore. Riprova.,Algo salió mal. Inténtalo de nuevo.,mt: Generic error message (fr/it/es)
+error.network,No internet connection.,Pas de connexion internet.,Nessuna connessione a Internet.,Sin conexión a Internet.,mt: Shown when the device is offline (fr/it/es)
+error.invalidEmail,Please enter a valid email address.,Veuillez entrer une adresse e-mail valide.,Inserisci un indirizzo email valido.,Introduce una dirección de correo electrónico válida.,mt: Email field validation error (it/es)
+error.wrongPassword,Incorrect email or password.,E-mail ou mot de passe incorrect.,Email o password non corretti.,Correo electrónico o contraseña incorrectos.,mt: Login failure error (fr/it/es)
+error.expiredCode,This code has expired. Request a new one.,Ce code a expiré. Demandez-en un nouveau.,Questo codice è scaduto. Richiedine uno nuovo.,Este código ha caducado. Solicita uno nuevo.,mt: Verification code expiry error (fr/it/es)
+error.required,This field is required.,Ce champ est obligatoire.,Questo campo è obbligatorio.,Este campo es obligatorio.,mt: Required field validation error (it/es)
