@@ -1,0 +1,15 @@
+key,en,fr,it,es,context
+auth.login,Log in,Se connecter,Accedi,Iniciar sesión,Primary CTA on login screen
+auth.signUp,Sign up,S'inscrire,Registrati,Registrarse,Primary CTA on landing/sign-up screen
+auth.email,Email,Email,Email,Correo electrónico,Email form field label
+auth.password,Password,Mot de passe,Password,Contraseña,Password form field label
+auth.confirmPassword,Confirm password,Confirmez le mot de passe,Conferma password,Confirmar contraseña,Confirm-password form field label
+auth.forgotPassword,Forgot password?,Mot de passe oublié ?,Password dimenticata?,¿Olvidaste tu contraseña?,Link to password recovery flow
+auth.welcomeBack,Welcome back,Bon retour,Bentornato,Bienvenido de nuevo,mt: Heading on the login screen (fr/it/es)
+auth.createAccount,Create account,Créer un compte,Crea un account,Crear cuenta,Heading/CTA on the sign-up screen
+auth.signOut,Sign out,Se déconnecter,Disconnetti,Cerrar sesión,Sign-out action in settings/account menu
+auth.emailVerification,Email verification,Vérification de l'email,Verifica dell'email,Verificación de correo electrónico,Heading on the email verification screen
+auth.enterCode,Enter the code we sent you,Saisissez le code que nous vous avons envoyé,Inserisci il codice che ti abbiamo inviato,Introduce el código que te enviamos,mt: Instruction on the verification code screen (fr/it/es)
+auth.resendCode,Resend code,Renvoyer le code,Invia di nuovo il codice,Reenviar código,mt: Button to resend the verification code (fr/it/es)
+auth.resetPassword,Reset password,Réinitialiser le mot de passe,Reimposta password,Restablecer contraseña,mt: Heading/CTA on the reset-password screen (fr/it/es)
+auth.newPassword,New password,Nouveau mot de passe,Nuova password,Nueva contraseña,New-password form field label
