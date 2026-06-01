@@ -1,0 +1,23 @@
+key,en,fr,it,es,context
+profile.cta.edit,Edit profile,Modifier le profil,Modifica profilo,Editar perfil,"Own-profile primary CTA (from RN profile.editProfile)"
+profile.cta.follow,Follow,Suivre,Segui,Seguir,"Other-profile primary CTA when not following (from RN profile.follow)"
+profile.cta.following,Following,Abonné,Segui già,Siguiendo,"Other-profile primary CTA when already following (from RN profile.following)"
+profile.stat.posts,Posts,Publications,Post,Publicaciones,"Stat caption for the post count (from RN profile.posts)"
+profile.stat.followers,Followers,Abonnés,Follower,Seguidores,"Stat caption for the follower count (from RN profile.followers)"
+profile.stat.following,Following,Abonnements,Seguiti,Siguiendo,"Stat caption for the following count (from RN profile.followingCount)"
+profile.badge.founder,Founder,Fondateur,Fondatore,Fundador,"mt: Status pill on a founding-tier user's profile (it/es; fr from RN roles.founder)"
+profile.badge.consul,Consul,Consul,Console,Cónsul,"mt: Status pill on a founding-consul user's profile (it/es; fr from RN roles.consul)"
+profile.tab.posts,Posts,Publications,Post,Publicaciones,"Profile feed tab label for the user's own posts (from RN profile.tabs.posts)"
+profile.tab.replies,Replies,Réponses,Risposte,Respuestas,"Profile feed tab label for the user's replies (from RN profile.tabs.replies)"
+profile.tab.reposts,Reposts,Reposts,Repost,Reposts,"mt: Profile feed tab label for the user's reposts (it/es; fr from RN profile.tabs.reposts)"
+profile.empty.posts.title,No posts yet,Aucune publication,Ancora nessun post,Aún no hay publicaciones,"mt: Empty-state title on the Posts tab of a profile with no posts (it/es; from RN profile.noPosts)"
+profile.empty.posts.body,When this citizen posts something it will show up here.,Lorsque ce citoyen publiera quelque chose cela apparaîtra ici.,Quando questo cittadino pubblicherà qualcosa apparirà qui.,Cuando este ciudadano publique algo aparecerá aquí.,mt: Empty-state body on the Posts tab (fr/it/es)
+profile.empty.posts.ownBody,Share your first post with the community.,Partagez votre première publication avec la communauté.,Condividi il tuo primo post con la community.,Comparte tu primera publicación con la comunidad.,mt: Empty-state body on the Posts tab of your own profile (fr/it/es)
+profile.empty.replies.title,No replies yet,Aucune réponse,Ancora nessuna risposta,Aún no hay respuestas,mt: Empty-state title on the Replies tab (fr/it/es)
+profile.empty.replies.body,Replies to other citizens will appear here.,Les réponses aux autres citoyens apparaîtront ici.,Le risposte agli altri cittadini appariranno qui.,Las respuestas a otros ciudadanos aparecerán aquí.,mt: Empty-state body on the Replies tab (fr/it/es)
+profile.empty.reposts.title,No reposts yet,Aucun repost,Ancora nessun repost,Aún no hay reposts,mt: Empty-state title on the Reposts tab (fr/it/es)
+profile.empty.reposts.body,Reposted content will appear here.,Le contenu reposté apparaîtra ici.,I contenuti ripostati appariranno qui.,El contenido reposteado aparecerá aquí.,mt: Empty-state body on the Reposts tab (fr/it/es)
+profile.error.loadFailed,Couldn't load this profile.,Impossible de charger ce profil.,Impossibile caricare questo profilo.,No se pudo cargar este perfil.,mt: Shown when the profile header fetch fails (fr/it/es)
+profile.error.feedFailed,Couldn't load posts.,Impossible de charger les publications.,Impossibile caricare i post.,No se pudieron cargar las publicaciones.,mt: Shown when a profile feed tab fails to load (fr/it/es)
+profile.error.retry,Retry,Réessayer,Riprova,Reintentar,"Retry button on the profile error state (from RN feedListEmpty.retry)"
+profile.title,Profile,Profil,Profilo,Perfil,"mt: Navigation title of the profile screen (it/es; from RN profile.title)"
