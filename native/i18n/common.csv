@@ -15,3 +15,16 @@ error.invalidEmail,Please enter a valid email address.,Veuillez entrer une adres
 error.wrongPassword,Incorrect email or password.,E-mail ou mot de passe incorrect.,Email o password non corretti.,Correo electrónico o contraseña incorrectos.,mt: Login failure error (fr/it/es)
 error.expiredCode,This code has expired. Request a new one.,Ce code a expiré. Demandez-en un nouveau.,Questo codice è scaduto. Richiedine uno nuovo.,Este código ha caducado. Solicita uno nuevo.,mt: Verification code expiry error (fr/it/es)
 error.required,This field is required.,Ce champ est obligatoire.,Questo campo è obbligatorio.,Este campo es obligatorio.,mt: Required field validation error (it/es)
+common.skip,Skip,Passer,Salta,Omitir,Skip button to bypass an optional step
+common.confirm,Confirm,Confirmer,Conferma,Confirmar,Confirm button on forms
+common.logOut,Log out,Se déconnecter,Esci,Cerrar sesión,Log-out action shown on auth/onboarding screens
+common.follow,Follow,Suivre,Segui,Seguir,Follow action button on a user row
+error.passwordTooWeak,Password is too weak.,Le mot de passe est trop faible.,La password è troppo debole.,La contraseña es demasiado débil.,mt: Shown when the chosen password fails the strength rules (it/es)
+error.passwordsMustMatch,Passwords must match.,Les mots de passe ne correspondent pas.,Le password devono corrispondere.,Las contraseñas deben coincidir.,mt: Confirm-password mismatch error (it/es)
+error.codeInvalid,This code is invalid.,Ce code est invalide.,Questo codice non è valido.,Este código no es válido.,mt: Invalid verification code error (it/es)
+error.accountExists,An account with this email already exists.,Un compte avec cet email existe déjà.,Esiste già un account con questa email.,Ya existe una cuenta con este correo.,mt: Shown on register when the email is taken (it/es)
+error.mustBe18,You must be 18 years or older.,Vous devez avoir 18 ans ou plus.,Devi avere almeno 18 anni.,Debes tener 18 años o más.,mt: Age-gate validation error on register (it/es)
+validation.passwordRule.minLength,At least 8 characters,Au moins 8 caractères,Almeno 8 caratteri,Al menos 8 caracteres,mt: Reusable password length rule (it/es)
+validation.passwordRule.uppercase,At least 1 uppercase letter,Au moins 1 majuscule,Almeno 1 lettera maiuscola,Al menos 1 letra mayúscula,mt: Reusable password uppercase rule (fr/it/es)
+validation.passwordRule.number,At least 1 number,Au moins 1 chiffre,Almeno 1 numero,Al menos 1 número,mt: Reusable password number rule (fr/it/es)
+validation.passwordRule.symbol,At least 1 symbol,Au moins 1 symbole,Almeno 1 simbolo,Al menos 1 símbolo,mt: Reusable password symbol rule (fr/it/es)
