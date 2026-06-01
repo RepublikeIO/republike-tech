@@ -21,3 +21,13 @@ profile.error.loadFailed,Couldn't load this profile.,Impossible de charger ce pr
 profile.error.feedFailed,Couldn't load posts.,Impossible de charger les publications.,Impossibile caricare i post.,No se pudieron cargar las publicaciones.,mt: Shown when a profile feed tab fails to load (fr/it/es)
 profile.error.retry,Retry,Réessayer,Riprova,Reintentar,"Retry button on the profile error state (from RN feedListEmpty.retry)"
 profile.title,Profile,Profil,Profilo,Perfil,"mt: Navigation title of the profile screen (it/es; from RN profile.title)"
+profile.followers.title,Followers,Abonnés,Follower,Seguidores,"mt: Navigation title of the followers list screen (it/es; from RN FollowersScreen)"
+profile.following.title,Following,Abonnements,Seguiti,Siguiendo,"mt: Navigation title of the following list screen (it/es; from RN FollowingScreen)"
+profile.empty.followers.title,No followers yet,Aucun abonné,Ancora nessun follower,Aún no hay seguidores,"mt: Empty-state title on the followers list (fr/it/es; from RN FollowersScreen empty)"
+profile.empty.followers.body,When someone follows this citizen they'll appear here.,Lorsque quelqu'un suivra ce citoyen il apparaîtra ici.,Quando qualcuno seguirà questo cittadino apparirà qui.,Cuando alguien siga a este ciudadano aparecerá aquí.,"mt: Empty-state body on the followers list (fr/it/es)"
+profile.empty.following.title,Not following anyone yet,Aucun abonnement,Non segue ancora nessuno,Aún no sigue a nadie,"mt: Empty-state title on the following list (fr/it/es; from RN FollowingScreen empty)"
+profile.empty.following.body,Citizens this person follows will appear here.,Les citoyens suivis par cette personne apparaîtront ici.,I cittadini seguiti da questa persona appariranno qui.,Los ciudadanos a los que sigue esta persona aparecerán aquí.,"mt: Empty-state body on the following list (fr/it/es)"
+profile.follow.failed,Couldn't update follow. Try again.,Impossible de mettre à jour l'abonnement. Réessayez.,Impossibile aggiornare il seguito. Riprova.,No se pudo actualizar el seguimiento. Inténtalo de nuevo.,"mt: Toast shown when an optimistic follow/unfollow is reverted after the API call fails (fr/it/es)"
+profile.list.error.loadFailed,Couldn't load this list.,Impossible de charger cette liste.,Impossibile caricare questo elenco.,No se pudo cargar esta lista.,"mt: Shown when a follower/following list fetch fails (fr/it/es)"
+profile.follow.accessibilityFollow,Follow {{name}},Suivre {{name}},Segui {{name}},Seguir a {{name}},"mt: Accessibility label for the inline/feed Follow button (fr/it/es)"
+profile.follow.accessibilityUnfollow,Unfollow {{name}},Se désabonner de {{name}},Smetti di seguire {{name}},Dejar de seguir a {{name}},"mt: Accessibility label for the inline/feed Unfollow button (fr/it/es)"
