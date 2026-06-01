@@ -13,3 +13,41 @@ auth.enterCode,Enter the code we sent you,Saisissez le code que nous vous avons 
 auth.resendCode,Resend code,Renvoyer le code,Invia di nuovo il codice,Reenviar código,mt: Button to resend the verification code (fr/it/es)
 auth.resetPassword,Reset password,Réinitialiser le mot de passe,Reimposta password,Restablecer contraseña,mt: Heading/CTA on the reset-password screen (fr/it/es)
 auth.newPassword,New password,Nouveau mot de passe,Nuova password,Nueva contraseña,New-password form field label
+auth.landing.signIn,Sign in,Se connecter,Accedi,Iniciar sesión,Secondary CTA on the landing screen
+auth.landing.getStarted,Sign up,S'inscrire,Registrati,Registrarse,Primary CTA on the landing screen
+auth.landing.tagline,Conversation beyond the conventional,La conversation au-delà du conventionnel,Conversazione oltre il convenzionale,Conversación más allá de lo convencional,Tagline shown on the landing carousel
+auth.login.title,Sign in,Connexion,Accedi,Iniciar sesión,Heading on the login screen
+auth.login.dataPrivacy,We'll not use your data at any point,Nous n'utiliserons jamais vos données,Non useremo mai i tuoi dati,Nunca usaremos tus datos,Reassurance subtitle on the login screen
+auth.login.noAccount,Don't have an account?,Pas encore de compte ?,Non hai un account?,¿No tienes una cuenta?,Prompt above the register link on login
+auth.login.register,Register,S'inscrire,Registrati,Registrarse,Link to the register screen from login
+auth.register.title,Create account,Créer un compte,Crea un account,Crear cuenta,Heading on the register screen
+auth.register.firstName,First name,Prénom,Nome,Nombre,First-name form field label on register
+auth.register.lastName,Last name,Nom,Cognome,Apellido,Last-name form field label on register
+auth.register.confirmOver18,I confirm that I am over 18 years old.,Je confirme avoir plus de 18 ans.,Confermo di avere più di 18 anni.,Confirmo que soy mayor de 18 años.,Age confirmation checkbox on register
+auth.register.byCreatingAccount,By creating an account you're accepting our,En créant un compte vous acceptez nos,Creando un account accetti i nostri,Al crear una cuenta aceptas nuestros,Lead-in text before the ToU/Privacy links on register
+auth.register.termsOfService,Terms of Service,Conditions d'utilisation,Termini di servizio,Términos del servicio,Terms of Service link on register
+auth.register.andOur,and our,et notre,e la nostra,y nuestra,Conjunction between ToU and Privacy links on register
+auth.register.privacyPolicy,Privacy Policy,Politique de confidentialité,Informativa sulla privacy,Política de privacidad,Privacy Policy link on register
+auth.register.passwordRule.minLength,At least 8 characters,Au moins 8 caractères,Almeno 8 caratteri,Al menos 8 caracteres,mt: Password rule shown live on register (it/es)
+auth.register.passwordRule.uppercase,At least 1 uppercase letter,Au moins 1 majuscule,Almeno 1 lettera maiuscola,Al menos 1 letra mayúscula,mt: Password rule shown live on register (fr/it/es)
+auth.register.passwordRule.number,At least 1 number,Au moins 1 chiffre,Almeno 1 numero,Al menos 1 número,mt: Password rule shown live on register (fr/it/es)
+auth.register.passwordRule.symbol,At least 1 symbol,Au moins 1 symbole,Almeno 1 simbolo,Al menos 1 símbolo,mt: Password rule shown live on register (fr/it/es)
+auth.register.emailRule.format,Valid email address,Adresse email valide,Indirizzo email valido,Dirección de correo electrónico válida,Live email-format rule on register
+auth.register.passwordRule.match,Matches password,Identique au mot de passe,Corrisponde alla password,Coincide con la contraseña,Live confirm-password rule on register
+auth.verify.title,Email verification,Vérification de l'email,Verifica dell'email,Verificación de correo electrónico,Heading on the email verification screen
+auth.verify.checkInbox,"Check your inbox at {email} and click the verification link inside to complete your registration.","Vérifiez votre boîte mail à l'adresse {email} et cliquez sur le lien de vérification pour finaliser votre inscription.","Controlla la tua casella all'indirizzo {email} e clicca sul link di verifica per completare la registrazione.","Revisa tu bandeja de entrada en {email} y haz clic en el enlace de verificación para completar tu registro.",Instruction with interpolated email on the verification screen
+auth.verify.resend,Resend email,Renvoyer l'email,Invia di nuovo l'email,Reenviar correo,Button to resend the verification email
+auth.verify.resendCountdown,"Resend email ({seconds})","Renvoyer l'email ({seconds})","Invia di nuovo l'email ({seconds})","Reenviar correo ({seconds})",mt: Resend button label during the cooldown countdown (it/es)
+auth.verify.alreadyVerified,I've already verified,J'ai déjà vérifié,Ho già verificato,Ya he verificado,Button to recheck verification status
+auth.verify.stillPending,We don't see your verification yet. Please click the link in your email.,Nous ne voyons pas encore votre vérification. Cliquez sur le lien dans votre email.,Non vediamo ancora la tua verifica. Clicca sul link nella tua email.,Aún no vemos tu verificación. Haz clic en el enlace de tu correo.,Toast when verification has not completed yet
+auth.verify.emailSent,The validation email has been sent.,L'email de validation a été envoyé.,L'email di convalida è stata inviata.,El correo de validación ha sido enviado.,Toast after a successful resend
+auth.verifying.loading,Verifying your account…,Vérification de votre compte…,Verifica del tuo account…,Verificando tu cuenta…,mt: Loading label on the post-verification screen (it/es)
+auth.verifying.success,Your account has been verified.,Votre compte a été vérifié.,Il tuo account è stato verificato.,Tu cuenta ha sido verificada.,mt: Success message after verification completes (it/es)
+auth.forgot.title,Forgot password,Mot de passe oublié,Password dimenticata,Contraseña olvidada,Heading on the forgot-password screen
+auth.forgot.enterEmail,Enter the email address associated with your current Republike account.,Entrez l'adresse e-mail associée à votre compte Republike actuel.,Inserisci l'indirizzo email associato al tuo account Republike.,Introduce la dirección de correo asociada a tu cuenta de Republike.,Instruction on the forgot-password screen
+auth.forgot.backToLogin,Back to login,Retour à la connexion,Torna all'accesso,Volver al inicio de sesión,Link back to the login screen from forgot password
+auth.forgot.success,"If that email exists, we've sent a reset link.","Si cette adresse existe, nous avons envoyé un lien de réinitialisation.","Se l'email esiste, abbiamo inviato un link di reimpostazione.","Si ese correo existe, hemos enviado un enlace de restablecimiento.",mt: Neutral success message after requesting a reset (it/es)
+auth.reset.title,Reset password,Réinitialiser le mot de passe,Reimposta password,Restablecer contraseña,Heading on the reset-password screen
+auth.reset.success,Password reset successful.,Réinitialisation du mot de passe réussie.,Reimpostazione della password riuscita.,Restablecimiento de contraseña exitoso.,Toast after a successful password reset
+auth.reset.linkExpired,This reset link has expired.,Ce lien de réinitialisation a expiré.,Questo link di reimpostazione è scaduto.,Este enlace de restablecimiento ha caducado.,mt: Shown when the reset deep-link token is expired (it/es)
+auth.reset.requestNewLink,Request a new link,Demander un nouveau lien,Richiedi un nuovo link,Solicitar un nuevo enlace,mt: Button to request a fresh reset link after expiry (it/es)
