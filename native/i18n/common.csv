@@ -28,3 +28,7 @@ validation.passwordRule.minLength,At least 8 characters,Au moins 8 caractères,A
 validation.passwordRule.uppercase,At least 1 uppercase letter,Au moins 1 majuscule,Almeno 1 lettera maiuscola,Al menos 1 letra mayúscula,mt: Reusable password uppercase rule (fr/it/es)
 validation.passwordRule.number,At least 1 number,Au moins 1 chiffre,Almeno 1 numero,Al menos 1 número,mt: Reusable password number rule (fr/it/es)
 validation.passwordRule.symbol,At least 1 symbol,Au moins 1 symbole,Almeno 1 simbolo,Al menos 1 símbolo,mt: Reusable password symbol rule (fr/it/es)
+common.seeMore,See more,Voir plus,Mostra altro,Ver más,"Generic truncation expander reused across feed, comments and profiles (fr from RN profile.seeMore)"
+common.showLess,Show less,Afficher moins,Mostra meno,Mostrar menos,"Generic collapse control paired with common.seeMore (fr from RN feed.showLess)"
+common.share,Share,Partager,Condividi,Compartir,mt: Generic share action used on posts and profiles (fr/it/es)
+common.report,Report,Signaler,Segnala,Denunciar,mt: Generic report action on posts/comments/users (fr/it/es)
