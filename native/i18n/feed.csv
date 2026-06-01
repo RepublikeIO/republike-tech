@@ -1,0 +1,61 @@
+key,en,fr,it,es,context
+feed.tab.agora,Agora,Agora,Agora,Ágora,Feed tab label for the chronological/explore feed (from RN feed.modeSwitcher.explore)
+feed.tab.forYou,For you,Pour vous,Per te,Para ti,Feed tab label for the personalized feed (from RN feed.modeSwitcher.yourFeed)
+feed.tab.surpriseMe,Surprise me,Surprenez-moi,Sorprendimi,Sorpréndeme,mt: Optional feed mode that shows random content (it/es)
+feed.composer.placeholder,What's on your mind?,Qu'avez-vous en tête ?,Cosa hai in mente?,¿Qué estás pensando?,"mt: Placeholder in the composer trigger card at the top of the feed (it/es; fr from RN layout.feed.whatsInYourMind, reworded)"
+feed.composer.cta,Post,Publier,Pubblica,Publicar,mt: Button on the composer card that opens the post editor (it/es)
+feed.refresh,Pull to refresh,Tirez pour actualiser,Trascina per aggiornare,Desliza para actualizar,"mt: Hint/accessibility label for the pull-to-refresh control (fr/it/es)"
+feed.refreshing,Refreshing…,Actualisation…,Aggiornamento…,Actualizando…,mt: Status shown while the feed is reloading (fr/it/es)
+feed.loadingMore,Loading more posts…,Chargement d'autres publications…,Caricamento di altri post…,Cargando más publicaciones…,mt: Footer status during infinite-scroll pagination (fr/it/es)
+feed.endOfFeed,You're all caught up,Vous êtes à jour,Sei aggiornato,Estás al día,"mt: End-of-list marker when there are no more posts to load (it/es; fr from RN emptyStates.notifications.unread.title)"
+feed.empty.title,Nothing new just yet,Rien de nouveau pour l'instant,Niente di nuovo per ora,Nada nuevo por ahora,"Empty-feed title (from RN feedEmpty.latest.title)"
+feed.empty.body,Be the first to share something with the community.,Soyez le premier à partager quelque chose avec la communauté.,Sii il primo a condividere qualcosa con la community.,Sé el primero en compartir algo con la comunidad.,"Empty-feed body (from RN feedEmpty.latest.subtitle)"
+feed.empty.forYou.title,No posts from people you follow yet,Aucune publication des personnes que vous suivez,Ancora nessun post dalle persone che segui,Aún no hay publicaciones de las personas que sigues,"For-You empty-state title (from RN feedEmpty.follow.title)"
+feed.empty.forYou.body,Follow citizens whose voice you care about — their posts will appear here.,Suivez les citoyens dont la voix compte pour vous — leurs publications apparaîtront ici.,Segui i cittadini la cui voce ti sta a cuore: i loro post appariranno qui.,Sigue a los ciudadanos cuya voz te importa: sus publicaciones aparecerán aquí.,"For-You empty-state body (from RN feedEmpty.follow.subtitle)"
+feed.empty.retry,Retry,Réessayer,Riprova,Reintentar,Retry button on the feed error/empty state (from RN feedListEmpty.retry)
+feed.error.loadFailed,Couldn't load the feed.,Impossible de charger le fil.,Impossibile caricare il feed.,No se pudo cargar el feed.,mt: Shown when the feed batch request fails (fr/it/es)
+feed.post.contentDeleted,This content has been deleted,Ce contenu a été supprimé,Questo contenuto è stato eliminato,Este contenido ha sido eliminado,"Placeholder for a removed post in the feed (from RN feed.contentHasBeenDeleted)"
+feed.post.underModeration,Under moderation,En cours de modération,In fase di moderazione,En moderación,"mt: Badge on a post awaiting moderation (it/es; fr from RN post.underModeration)"
+feed.post.seeMore,See more,Voir plus,Mostra altro,Ver más,"Truncation expander on a long post (from RN profile.seeMore)"
+feed.post.showLess,Show less,Afficher moins,Mostra meno,Mostrar menos,"Collapse a previously expanded post (from RN feed.showLess)"
+feed.reaction.agree,Agree,D'accord,D'accordo,De acuerdo,"Reaction label (enum AGREE; from RN reactions.agree, capitalized)"
+feed.reaction.smart,Smart,Intelligent,Intelligente,Inteligente,Reaction label (enum SMART; from RN reactions.smart)
+feed.reaction.useful,Useful,Utile,Utile,Útil,Reaction label (enum USEFUL; from RN reactions.useful)
+feed.reaction.inspiring,Inspiring,Inspirant,Stimolante,Inspirador,Reaction label (enum INSPIRING; from RN reactions.inspiring)
+feed.reaction.disagree,Disagree,Pas d'accord,Non d'accordo,En desacuerdo,Reaction label (enum DISAGREE; from RN reactions.disagree)
+feed.reaction.aggressive,Aggressive,Agressif,Aggressivo,Agresivo,Reaction label (enum AGGRESSIVE; from RN reactions.angry)
+feed.reaction.deceptive,Deceptive,Trompeur,Ingannevole,Engañoso,Reaction label (enum DECEPTIVE; from RN reactions.confusing)
+feed.reaction.unverifiable,Unverifiable,Invérifiable,Non verificabile,No verificable,Reaction label (enum UNVERIFIABLE; from RN reactions.unverifiable)
+feed.reaction.locked,You've already reacted to this post.,Vous avez déjà réagi à cette publication.,Hai già reagito a questo post.,Ya has reaccionado a esta publicación.,mt: Vote-once messaging when a user taps a reaction after already reacting (fr/it/es)
+feed.reaction.failed,Failed to react to the post. Please try again.,Échec de la réaction à la publication. Veuillez réessayer.,Impossibile reagire al post. Riprova.,No se pudo reaccionar a la publicación. Inténtalo de nuevo.,"mt: Toast when the reaction mutation fails (it/es; from RN common.toast.post.likeFailed)"
+feed.reactionStats.title,Reactions & Stats,Statistiques des réactions,Reazioni e statistiche,Reacciones y estadísticas,"Title of the reaction-stats bottom sheet (from RN feed.StatsTitle)"
+feed.reactionStats.empty,No detailed reactions yet,Aucune réaction détaillée pour le moment,Ancora nessuna reazione dettagliata,Aún no hay reacciones detalladas,"Empty state inside the reaction-stats sheet (from RN feed.noDetailedReactions)"
+feed.reactionStats.replies,Replies,Réponses,Risposte,Respuestas,"Replies tally label in the reaction-stats sheet (from RN feed.replies)"
+feed.reactionStats.reposts,Reposts,Reposts,Repost,Reposts,"mt: Reposts tally label in the reaction-stats sheet (it/es; fr from RN feed.reposts)"
+feed.reactionStats.upvotes,Upvotes,Upvotes,Voti positivi,Votos positivos,"mt: Upvotes tally label in the reaction-stats sheet (it/es; fr from RN feed.upvotes)"
+feed.reactionStats.downvotes,Downvotes,Downvotes,Voti negativi,Votos negativos,"mt: Downvotes tally label in the reaction-stats sheet (it/es; fr from RN feed.downvotes)"
+feed.voteRules.title,Vote first and see the counter later!,Votez d'abord et voyez le compteur plus tard !,Vota prima e guarda il contatore dopo!,¡Vota primero y mira el contador después!,"mt: Title of the one-time vote-rules explainer shown before a user's first reaction (it/es; fr from RN voteRules.title)"
+feed.voteRules.body,Hidden votes ensure that you vote based on genuine opinion rather than following the crowd.,Le vote caché garantit que vous votez selon votre opinion sincère et non en suivant la majorité.,I voti nascosti garantiscono che tu voti in base alla tua opinione sincera e non seguendo la folla.,Los votos ocultos garantizan que votes según tu opinión sincera y no siguiendo a la mayoría.,"mt: Body of the vote-rules explainer (it/es; fr from RN voteRules.description)"
+feed.voteRules.confirm,I understand,Je comprends,Ho capito,Lo entiendo,"mt: Dismiss button on the vote-rules explainer (it/es; fr from RN voteRules.understandButton)"
+feed.tip.comingSoon,Tips coming soon,Pourboires bientôt disponibles,Le mance arrivano presto,Las propinas llegan pronto,mt: Snackbar shown when an eligible user taps the tip trigger (tip flow deferred) (fr/it/es)
+feed.tip.upgradeNeeded,Upgrade to unlock tips,Améliorez votre plan pour débloquer les pourboires,Esegui l'upgrade per sbloccare le mance,Mejora tu plan para desbloquear las propinas,"mt: Toast shown when a user without the tips:give capability taps the tip trigger (it/es; from RN feed.tipUpgradeRequired)"
+post.detail.title,Post,Publication,Post,Publicación,"mt: Navigation title of the post-detail screen (it/es; fr from RN post.post)"
+post.detail.backToPost,Back to post,Retour à la publication,Torna al post,Volver a la publicación,"mt: Link back to the parent post from a reply thread (it/es; fr from RN post.backToPost)"
+post.detail.readMore,Read more,Lire la suite,Leggi di più,Leer más,"mt: Expander on the full post in the detail view (it/es; from RN post.readMore)"
+post.comments.title,Replies,Réponses,Risposte,Respuestas,"Section header above the comment thread (from RN postFeedDetail.replies)"
+post.comments.sortBy,Sort by,Trier par,Ordina per,Ordenar por,"mt: Comment-thread sort control label (it/es; from RN post.buttonSortBy)"
+post.comments.empty,Be the first to comment,Soyez le premier à commenter,Sii il primo a commentare,Sé el primero en comentar,mt: Empty-state for a post with no comments (fr/it/es)
+post.comments.repliesComingSoon,Replies coming soon,Réponses bientôt disponibles,Le risposte arrivano presto,Las respuestas llegan pronto,mt: Snackbar when a user taps reply (comment composer deferred in Phase 6) (fr/it/es)
+post.comments.showReplies,Show replies,Afficher les réponses,Mostra le risposte,Mostrar respuestas,"mt: Expander revealing nested replies (it/es; from RN postFeedDetail.showReplies)"
+post.comments.hideReplies,Hide replies,Masquer les réponses,Nascondi le risposte,Ocultar respuestas,"mt: Collapse nested replies (it/es; from RN postFeedDetail.hideReplies)"
+post.comments.added,Comment added,Commentaire ajouté,Commento aggiunto,Comentario añadido,"mt: Toast after a comment posts successfully (it/es; from RN postFeedDetail.commentAdded)"
+post.time.justNow,Just now,À l'instant,Adesso,Ahora mismo,"mt: Relative timestamp for very recent posts/comments (it/es; from RN date.justNow)"
+post.time.minutesAgo,{{count}}m ago,Il y a {{count}} min,{{count}} min fa,Hace {{count}} min,mt: Relative timestamp in minutes (fr/it/es)
+post.time.hoursAgo,{{count}}h ago,Il y a {{count}} h,{{count}} h fa,Hace {{count}} h,mt: Relative timestamp in hours (fr/it/es)
+post.time.daysAgo,{{count}}d ago,Il y a {{count}} j,{{count}} g fa,Hace {{count}} d,mt: Relative timestamp in days (fr/it/es)
+feed.media.tapForSound,Tap for sound,Touchez pour le son,Tocca per l'audio,Toca para activar el sonido,mt: Overlay hint on a muted auto-playing video (fr/it/es)
+feed.media.tapToMute,Tap to mute,Touchez pour couper le son,Tocca per disattivare l'audio,Toca para silenciar,mt: Overlay hint to mute a playing video (fr/it/es)
+feed.media.holdForFullscreen,Hold for fullscreen,Maintenez pour le plein écran,Tieni premuto per lo schermo intero,Mantén pulsado para pantalla completa,mt: Long-press hint to open a video fullscreen (fr/it/es)
+feed.media.pinchToZoom,Pinch to zoom,Pincez pour zoomer,Pizzica per ingrandire,Pellizca para ampliar,mt: Hint in the fullscreen image viewer (fr/it/es)
+feed.media.imageCount,{{current}} of {{total}},{{current}} sur {{total}},{{current}} di {{total}},{{current}} de {{total}},mt: Page indicator on the media carousel (fr/it/es)
+feed.media.loadFailed,Couldn't load media,Impossible de charger le média,Impossibile caricare il contenuto multimediale,No se pudo cargar el contenido multimedia,mt: Shown when an image or video fails to load (fr/it/es)
