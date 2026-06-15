@@ -31,6 +31,8 @@ onboarding.profile.bio,Bio,Biographie,Bio,Biografía,Bio field label on profile 
 onboarding.profile.bioPlaceholder,Write a bio,Écrivez une biographie,Scrivi una bio,Escribe una biografía,Bio field placeholder on profile completion
 onboarding.profile.usernameTaken,This username is already taken,Ce nom d'utilisateur est déjà pris,Questo nome utente è già in uso,Este nombre de usuario ya está en uso,Validation message when a username is unavailable
 onboarding.profile.usernameAvailable,Available,Disponible,Disponibile,Disponible,Live rule confirming the username is free
+onboarding.profile.usernameInvalid,"3–16 characters, starting with a letter (letters, digits, . or _)","3 à 16 caractères, commençant par une lettre (lettres, chiffres, . ou _)","Da 3 a 16 caratteri, inizia con una lettera (lettere, cifre, . o _)","De 3 a 16 caracteres, empezando por una letra (letras, dígitos, . o _)",Validation hint when the username doesn't match the format rule
+onboarding.profile.usernameChecking,Checking availability…,Vérification de la disponibilité…,Verifica della disponibilità…,Comprobando disponibilidad…,Live status while the username availability check is in flight
 onboarding.addFriend.title,Some of your friends might already be Citizens. Let's find them.,Certains de vos amis sont peut-être déjà Citoyens. Trouvons-les.,Alcuni dei tuoi amici potrebbero già essere Cittadini. Troviamoli.,Algunos de tus amigos quizá ya sean Ciudadanos. Vamos a encontrarlos.,mt: Heading on the add-friend prompt screen (it/es)
 onboarding.addFriend.invite,Invite friends,Inviter des amis,Invita amici,Invitar amigos,mt: Primary CTA on the add-friend prompt (fr/it/es)
 onboarding.addFriend.skip,Skip,Passer,Salta,Omitir,Secondary skip CTA on the add-friend prompt
