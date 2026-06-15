@@ -55,3 +55,4 @@ lang.en,English,Anglais,Inglese,Inglés,"mt: Language picker option — English 
 lang.fr,French,Français,Francese,Francés,"mt: Language picker option — French (fr/it/es)"
 lang.it,Italian,Italien,Italiano,Italiano,"mt: Language picker option — Italian (fr/it/es)"
 lang.es,Spanish,Espagnol,Spagnolo,Español,"mt: Language picker option — Spanish (fr/it/es)"
+edit.avatarUploadFailed,Profile saved — but your photo couldn't be uploaded. Try again.,Profil enregistré — mais votre photo n'a pas pu être envoyée. Réessayez.,Profilo salvato — ma non è stato possibile caricare la foto. Riprova.,Perfil guardado — pero no se pudo subir tu foto. Inténtalo de nuevo.,"mt: Non-blocking edit-profile error when the avatar S3 upload fails; text edits still saved"
