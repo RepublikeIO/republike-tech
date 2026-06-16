@@ -13,6 +13,7 @@ paywall.plan.foundingFather,Founding Father,Père Fondateur,Padre Fondatore,Padr
 paywall.plan.perYear,per year,par an,all'anno,al año,Billing period suffix for the annual plan
 paywall.plan.lifetime,Lifetime,À vie,A vita,De por vida,Billing period label for the lifetime plan
 paywall.plan.subscribe,Subscribe,S'abonner,Abbonati,Suscribirse,CTA to start a subscription purchase
+paywall.plan.becomeFounder,Become a Founder,Devenir Fondateur,Diventa Fondatore,Conviértete en Fundador,CTA to buy the one-time lifetime Founding Father tier
 paywall.verify.loading,Verifying your payment…,Vérification de votre paiement…,Verifica del pagamento…,Verificando tu pago…,Loading label while the receipt is verified
 paywall.verify.success,Your payment has been verified.,Votre paiement a été vérifié.,Il tuo pagamento è stato verificato.,Tu pago ha sido verificado.,Toast after a successful receipt verification
 paywall.verify.timeoutTitle,We couldn't verify your payment.,Nous n'avons pas pu vérifier votre paiement.,Non siamo riusciti a verificare il tuo pagamento.,No pudimos verificar tu pago.,Title of the verification-timeout fallback
