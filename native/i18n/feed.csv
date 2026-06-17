@@ -16,6 +16,8 @@ feed.empty.retry,Retry,Réessayer,Riprova,Reintentar,Retry button on the feed er
 feed.error.loadFailed,Couldn't load the feed.,Impossible de charger le fil.,Impossibile caricare il feed.,No se pudo cargar el feed.,mt: Shown when the feed batch request fails (fr/it/es)
 feed.post.contentDeleted,This content has been deleted,Ce contenu a été supprimé,Questo contenuto è stato eliminato,Este contenido ha sido eliminado,"Placeholder for a removed post in the feed (from RN feed.contentHasBeenDeleted)"
 feed.post.underModeration,Under moderation,En cours de modération,In fase di moderazione,En moderación,"mt: Badge on a post awaiting moderation (it/es; fr from RN post.underModeration)"
+feed.post.readMore,Read more,Lire la suite,Leggi di più,Leer más,"Inline expander appended to a collapsed long post body (from RN common.post.readMore)"
+feed.post.bookmarkComingSoon,Bookmarks coming soon,Favoris bientôt disponibles,I segnalibri arrivano presto,Los marcadores llegan pronto,"mt: Snackbar when a user taps the bookmark action on a feed post (bookmark mutation deferred) (fr/it/es)"
 feed.post.seeMore,See more,Voir plus,Mostra altro,Ver más,"Truncation expander on a long post (from RN profile.seeMore)"
 feed.post.showLess,Show less,Afficher moins,Mostra meno,Mostrar menos,"Collapse a previously expanded post (from RN feed.showLess)"
 feed.reaction.agree,Agree,D'accord,D'accordo,De acuerdo,"Reaction label (enum AGREE; from RN reactions.agree, capitalized)"
@@ -53,6 +55,13 @@ post.time.justNow,Just now,À l'instant,Adesso,Ahora mismo,"mt: Relative timesta
 post.time.minutesAgo,{{count}}m ago,Il y a {{count}} min,{{count}} min fa,Hace {{count}} min,mt: Relative timestamp in minutes (fr/it/es)
 post.time.hoursAgo,{{count}}h ago,Il y a {{count}} h,{{count}} h fa,Hace {{count}} h,mt: Relative timestamp in hours (fr/it/es)
 post.time.daysAgo,{{count}}d ago,Il y a {{count}} j,{{count}} g fa,Hace {{count}} d,mt: Relative timestamp in days (fr/it/es)
+post.time.compact.now,now,now,now,now,"Compact relative timestamp for a just-now post in the feed cell (mirrors RN dayjs updateLocale s: 'now'; locale-neutral abbreviation)"
+post.time.compact.minutes,{{count}} m,{{count}} m,{{count}} m,{{count}} m,"Compact relative timestamp in minutes shown in the feed cell header (mirrors RN dayjs '%d m'; locale-neutral abbreviation)"
+post.time.compact.hours,{{count}} h,{{count}} h,{{count}} h,{{count}} h,"Compact relative timestamp in hours shown in the feed cell header (mirrors RN dayjs '%d h'; locale-neutral abbreviation)"
+post.time.compact.days,{{count}} d,{{count}} d,{{count}} d,{{count}} d,"Compact relative timestamp in days shown in the feed cell header (mirrors RN dayjs '%d d'; locale-neutral abbreviation)"
+post.time.compact.weeks,{{count}} w,{{count}} w,{{count}} w,{{count}} w,"Compact relative timestamp in weeks shown in the feed cell header (mirrors RN dayjs '%d w'; locale-neutral abbreviation)"
+post.time.compact.months,{{count}} mo,{{count}} mo,{{count}} mo,{{count}} mo,"Compact relative timestamp in months shown in the feed cell header (mirrors RN dayjs '%d mo'; locale-neutral abbreviation)"
+post.time.compact.years,{{count}} y,{{count}} y,{{count}} y,{{count}} y,"Compact relative timestamp in years shown in the feed cell header (mirrors RN dayjs '%d y'; locale-neutral abbreviation)"
 feed.media.tapForSound,Tap for sound,Touchez pour le son,Tocca per l'audio,Toca para activar el sonido,mt: Overlay hint on a muted auto-playing video (fr/it/es)
 feed.media.tapToMute,Tap to mute,Touchez pour couper le son,Tocca per disattivare l'audio,Toca para silenciar,mt: Overlay hint to mute a playing video (fr/it/es)
 feed.media.holdForFullscreen,Hold for fullscreen,Maintenez pour le plein écran,Tieni premuto per lo schermo intero,Mantén pulsado para pantalla completa,mt: Long-press hint to open a video fullscreen (fr/it/es)
