@@ -1,6 +1,6 @@
 # ADR 0002 — Rich text editor for composer
 
-**Status:** Accepted (Phase 0) — interim decision pending composer reintroduction
+**Status:** Accepted (Phase 0) — interim decision pending composer reintroduction. The plain-text composer (Option C) stands; the **content data model** is now defined by **[ADR 0012](0012-post-content-entities.md)** (plain text + entities), which supersedes this ADR's assumption of a client-side HTML feed reader.
 **Date:** 2026-05-29
 
 ## Context
