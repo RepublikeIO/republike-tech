@@ -69,6 +69,38 @@ Client route map (mirrors RN `mappedRoutes`): `EMAIL_VERIFICATION`→verify · `
 
 **There is no `getMyCurrentPlan` / plan-status procedure.** After a purchase, poll `user.getMyUserProfile().status === ACTIVE` (and read `currentPlan`). Stripe procs (`payment.handleSubscription`, `createPaymentIntent`, `createSetupIntent`) are web-only.
 
+## Post content model — `{ text, entities }` (ADR 0012)
+
+Post content is **plain text + entities**, not HTML (see [ADR 0012](adrs/0012-post-content-entities.md)). Every post the API returns — new or legacy — carries this shape; legacy HTML rows are normalized by a permanent server-side read-adapter, so **clients never see HTML**.
+
+**Content object** (replaces the old `content` HTML / `plainTextContent` pair on a post):
+
+```jsonc
+{
+  "text": "Hey @ada, read #republike — https://republike.io",
+  "entities": [
+    { "type": "mention", "start": 4,  "end": 8,  "userId": "usr_123", "handle": "ada" },
+    { "type": "hashtag", "start": 15, "end": 25, "tag": "republike" },
+    { "type": "link",    "start": 28, "end": 48, "url": "https://republike.io",
+      "display": "republike.io" }            // optional shortened label
+  ]
+}
+```
+
+**`Entity`** — a typed annotation over a substring of `text`:
+- `type`: `"mention" | "hashtag" | "link"`.
+- `start`, `end`: **UTF‑8 byte offsets, half-open `[start, end)`** — the cross-client invariant. Convert at the edge: Swift `String.utf8`, Kotlin `toByteArray(Charsets.UTF_8)`, JS `TextEncoder`/`Buffer`. (NOT UTF‑16 code units — emoji/surrogate hazard.)
+- payload by type: **mention** → `userId` (authoritative) + `handle`; **hashtag** → `tag` (no `#`); **link** → `url` (+ optional `display`).
+- Entities are non-overlapping and sorted by `start`. Ranges that don't map to a valid entity are just text.
+- **Media is NOT an entity** — images/video stay in the separate `videoUrl`/attachments field (ADR 0009 / ADR 0002 Option C). Entities annotate `text` only.
+
+**Rules:**
+- **Rendering:** show `text` verbatim; overlay tap targets/styling on entity ranges (mention→profile, hashtag→hashtag screen, link→open). No HTML parsing.
+- **Authoring:** the composer sends `{ text, entities }`. **Mentions must carry `userId`** (resolved via `search.searchUsers` at `@`-autocomplete time) — the server uses it for the mention relation + notification. Hashtags/links may be client-supplied and/or re-derived server-side from `text`; the server is source of truth for hashtag relations.
+- **Legacy:** posts authored as HTML are converted on read (`text` = stored plain text; mention entities from the mention relations + `data-id`; hashtag entities from hashtag relations; link entities from `<a href>`). This adapter is permanent.
+
+This `{ text, entities }` shape is the `content` of every post in the procedures below — `getBatch`, `getUserPosts`, `getPostWithRepliesForMobile` (read) and `createPost`, `replyPost`, `editPost` (write).
+
 ## Feed & content — `post` router
 
 | Procedure | Type / tier | Input | Output | Notes |
@@ -76,10 +108,10 @@ Client route map (mirrors RN `mappedRoutes`): `EMAIL_VERIFICATION`→verify · `
 | `post.getBatch` | query · active | `{ fetchMode?: 'follows'\|'latest'\|'discover'\|'hot'\|'topics'\|'bookmarks'\|'news'\|'best'\|'home', selector?: { hashtag?, topic? }, cursor?, limit (1–100, def 10) }` | cursor page of posts | `fetchMode` optional; `'home'` = unified timeline. **The `profile-*` modes the native apps invented do NOT exist** — use `getUserPosts` for profile feeds. |
 | `post.getUserPosts` | query · active | `{ userId, fetchUserPostsType?: FetchUserPostsTypeEnum (def POSTS), cursor?, limit }` | cursor page | profile Posts/Replies/Reposts via `fetchUserPostsType`. |
 | `post.getPostWithRepliesForMobile` | query · protected | `{ postId }` | `{ ...post, rootPostId }` | **post detail for native** (thread included). |
-| `post.replyPost` | mutation · active | `{ postId, content, videoUrl?: string\|null }` | created reply | this is comment-create (max 4 nesting levels). |
+| `post.replyPost` | mutation · active | `{ postId, text, entities, videoUrl?: string\|null }` | created reply | comment-create (max 4 nesting levels). `text`+`entities` per the content model above. |
 | `post.reactToPost` | mutation · active | `{ postId, reaction: PostReactionEnum }` | userReaction | LIKE/AGREE/SMART/USEFUL/INSPIRING… Throws on duplicate. |
-| `post.createPost` | mutation · capability `post:create:limited` | `{ content, videoUrl?, repostPostId?, visibility?, poll?: { options: string[], duration } }` | post | composer. |
-| `post.editPost` / `post.deletePost` | mutation · active | `{ postId, ... }` / `{ postId }` | result | |
+| `post.createPost` | mutation · capability `post:create:limited` | `{ text, entities, videoUrl?, repostPostId?, visibility?, poll?: { options: string[], duration } }` | post | composer; `text`+`entities` per the content model above (mentions carry `userId`). |
+| `post.editPost` / `post.deletePost` | mutation · active | `{ postId, text, entities, ... }` / `{ postId }` | result | edit re-sends `text`+`entities`. |
 | `post.votePoll` / `post.getPollResults` | mutation / query · active | `{ postId, option }` / `{ postId }` | result | |
 | `post.createTip` | mutation · capability `tips:give` | `{ postId, amount (1–1000) }` | tip | |
 | `post.getTotalTipsForPost` / `post.getTipHistoryForPost` | query | `{ postId }` | totals / history | |
