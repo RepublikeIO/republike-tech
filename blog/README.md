@@ -6,6 +6,7 @@ Weekly technical updates from the Republike engineering team, published every Fr
 
 | Date | Title |
 |---|---|
+| [Friday, July 10, 2026](2026-07-10.md) | Two releases and a lap around what we don't own |
 | [Friday, June 26, 2026](2026-06-26.md) | Closing the gap between the contract and the code |
 | [Friday, June 5, 2026](2026-06-05.md) | Leaving Vercel, owning the stack |
 | [Friday, May 15, 2026](2026-05-15.md) | Roles as contracts |
