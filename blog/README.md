@@ -6,6 +6,7 @@ Weekly technical updates from the Republike engineering team, published every Fr
 
 | Date | Title |
 |---|---|
+| [Friday, July 24, 2026](2026-07-24.md) | Contracts that mean what they say — including free tier |
 | [Friday, July 17, 2026](2026-07-17.md) | An analytics pipe that can't see you |
 | [Friday, July 10, 2026](2026-07-10.md) | Two releases and a lap around what we don't own |
 | [Friday, June 26, 2026](2026-06-26.md) | Closing the gap between the contract and the code |
