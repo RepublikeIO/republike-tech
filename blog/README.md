@@ -6,6 +6,7 @@ Weekly technical updates from the Republike engineering team, published every Fr
 
 | Date | Title |
 |---|---|
+| [Friday, September 18, 2026](2026-09-18.md) | Recognition you can hold, moderation you can contest |
 | [Saturday, September 12, 2026](2026-09-12.md) | The backlog goes live: Discover, threads, push, and posts with structure |
 | [Friday, July 24, 2026](2026-07-24.md) | Contracts that mean what they say — including free tier |
 | [Friday, July 17, 2026](2026-07-17.md) | An analytics pipe that can't see you |
