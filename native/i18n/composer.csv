@@ -1,0 +1,30 @@
+key,en,fr,it,es,context
+composer.title.new,Create,Créer,Crea,Crear,"DA create-header title for a new post (Figma E01 ""DA/En-tête de création""); the unified ""Créer"" verb replaces ""Nouvelle publication"""
+composer.title.reply,Reply,Répondre,Rispondi,Responder,mt: Title of the reply composer sheet (fr/it/es)
+composer.title.edit,Edit post,Modifier la publication,Modifica post,Editar publicación,mt: Title of the edit-post composer sheet (fr/it/es)
+composer.title.repost,Create,Créer,Crea,Crear,"DA create-header title for a repost (Figma E05); the unified ""Créer"" verb matches the new-post header"
+composer.reply.placeholder,Write your reply,Écrivez votre réponse,Scrivi la tua risposta,Escribe tu respuesta,mt: Text-editor placeholder in the reply composer (fr/it/es)
+composer.repost.placeholder,Add a comment,Ajoutez un commentaire,Aggiungi un commento,Añade un comentario,mt: Text-editor placeholder in the repost composer; a comment is required (fr/it/es)
+composer.repost.commentRequired,A repost needs a comment,Une republication doit contenir un commentaire,Una riposta deve includere un commento,Una republicación necesita un comentario,mt: Validation shown when a repost is submitted without a comment (fr/it/es)
+composer.action.reply,Reply,Répondre,Rispondi,Responder,mt: Submit button in the reply composer (fr/it/es)
+composer.action.repost,Repost,Republier,Riposta,Republicar,mt: Submit button in the repost composer (fr/it/es)
+composer.addPhoto,Add photo,Ajouter une photo,Aggiungi foto,Añadir foto,mt: Button that opens the photo picker in the composer (fr/it/es)
+composer.visibility.public,Public,Public,Pubblico,Público,"Read-only visibility pill on the composer author row (Figma E01 ""DA/Auteur de la publication""); the E08 picker is not wired yet (fr/it/es)"
+composer.reply.inReplyTo,Replying to {handle},En réponse à {handle},In risposta a {handle},En respuesta a {handle},"Reply-context line above the editor (Figma E04); {handle} is the @username being replied to (fr/it/es)"
+composer.poll.add,Add poll,Ajouter un sondage,Aggiungi sondaggio,Añadir encuesta,mt: Button that adds a poll to the composer (fr/it/es)
+composer.poll.remove,Remove poll,Supprimer le sondage,Rimuovi sondaggio,Quitar encuesta,mt: Button that removes the poll from the composer (fr/it/es)
+composer.poll.optionPlaceholder,Option,Option,Opzione,Opción,mt: Placeholder for a poll option field (fr/it/es)
+composer.poll.addOption,Add option,Ajouter une option,Aggiungi opzione,Añadir opción,mt: Button that adds another poll option (fr/it/es)
+composer.poll.duration,Poll length,Durée du sondage,Durata del sondaggio,Duración de la encuesta,mt: Label for the poll-duration picker (fr/it/es)
+composer.poll.duration.oneDay,1 day,1 jour,1 giorno,1 día,mt: Poll duration option — one day (fr/it/es)
+composer.poll.duration.threeDays,3 days,3 jours,3 giorni,3 días,mt: Poll duration option — three days (fr/it/es)
+composer.poll.duration.sevenDays,1 week,1 semaine,1 settimana,1 semana,Poll duration option — one week (DA Figma E03 shows ""1 semaine"" not ""7 jours"")
+composer.error.rateLimited,You've reached today's post limit.,Vous avez atteint votre limite de publications pour aujourd'hui.,Hai raggiunto il limite di post di oggi.,Has alcanzado el límite de publicaciones de hoy.,mt: Error when the daily post cap is hit (429) (fr/it/es)
+composer.error.notAllowed,You don't have permission to do this.,Vous n'avez pas la permission de faire cela.,Non hai il permesso per farlo.,No tienes permiso para hacer esto.,mt: Error when a capability (403) blocks the action (fr/it/es)
+composer.error.editWindow,The time to edit this post has passed.,Le délai pour modifier cette publication est écoulé.,Il tempo per modificare questo post è scaduto.,El tiempo para editar esta publicación ha pasado.,mt: Error when the server edit window has closed (fr/it/es)
+composer.error.imageUpload,Couldn't upload the image.,Échec de l'envoi de l'image.,Impossibile caricare l'immagine.,No se pudo subir la imagen.,mt: Error when a composer image upload fails (fr/it/es)
+composer.error.rejected,Your post couldn't be published.,Votre publication n'a pas pu être publiée.,Non è stato possibile pubblicare il suo post.,No se pudo publicar su publicación.,"Generic submit-rejection snackbar (validation / own-post / closed edit window) distinct from error.generic; transient toast, not shown in the Figma create frames — FR carried from the shipped Android composer catalog"
+composer.success.posted,Posted,Publié,Pubblicato,Publicado,mt: Confirmation after publishing a new post (fr/it/es)
+composer.success.replied,Reply sent,Réponse envoyée,Risposta inviata,Respuesta enviada,mt: Confirmation after sending a reply (fr/it/es)
+composer.success.edited,Post updated,Publication mise à jour,Post aggiornato,Publicación actualizada,mt: Confirmation after editing a post (fr/it/es)
+composer.success.reposted,Reposted,Republié,Ripostato,Republicado,mt: Confirmation after reposting (fr/it/es)
