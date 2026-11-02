@@ -32,3 +32,8 @@ common.seeMore,See more,Voir plus,Mostra altro,Ver más,"Generic truncation expa
 common.showLess,Show less,Afficher moins,Mostra meno,Mostrar menos,"Generic collapse control paired with common.seeMore (fr from RN feed.showLess)"
 common.share,Share,Partager,Condividi,Compartir,mt: Generic share action used on posts and profiles (fr/it/es)
 common.report,Report,Signaler,Segnala,Denunciar,mt: Generic report action on posts/comments/users (fr/it/es)
+common.tabBar.home,Home,Accueil,Home,Inicio,"Accessibility label of the native tab bar's feed cell (DA/Tab bar layer ""Accueil"", SCRUM-449; it/es mt)"
+common.tabBar.create,Create,Créer,Crea,Crear,"Accessibility label of the native tab bar's centre + pill that opens the composer (DA/Tab bar layer ""Créer"", SCRUM-449)"
+common.photoCrop.title,Move and scale,Déplacer et redimensionner,Sposta e ridimensiona,Mover y escalar,"Title of the crop step shown after picking a profile photo or banner (RN expo-image-picker allowsEditing parity; mt: it/es)"
+common.photoCrop.choose,Choose,Choisir,Scegli,Elegir,"Confirm button of the photo crop step: keeps the framed region as the new avatar/banner (mt: it/es)"
+common.photoCrop.loadFailed,Couldn't load this photo. Try another one.,Impossible de charger cette photo. Essayez-en une autre.,Impossibile caricare questa foto. Provane un'altra.,No se pudo cargar esta foto. Prueba con otra.,"Error toast when the picked library photo can't be loaded (mt: it/es)"

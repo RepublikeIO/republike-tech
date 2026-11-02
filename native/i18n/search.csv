@@ -1,6 +1,7 @@
 key,en,fr,it,es,context
 search.title,Search,Rechercher,Cerca,Buscar,Navigation title of the Search screen / tab
 search.field.placeholder,Search,Recherche,Cerca,Buscar,"Placeholder in the search field (DA Figma G01 ""DA/Barre de recherche"" shows the single word ""Recherche"")"
+search.field.clear,Clear search,Effacer la recherche,Cancella ricerca,Borrar búsqueda,"Accessibility label of the clear (x) button inside the search field"
 search.scope.people,Accounts,Comptes,Account,Cuentas,"Search scope / segment tab — account results (DA Figma G02 tab ""Comptes"")"
 search.scope.posts,Posts,Publications,Post,Publicaciones,"Search scope / segment tab — post results (DA Figma G01 tab ""Publications"")"
 search.scope.tags,Tags,Tags,Tag,Etiquetas,"Search scope / segment tab — hashtag results (DA Figma G03 tab ""Tags"")"
@@ -8,6 +9,12 @@ search.prompt.title,Search Republike,Rechercher sur Republike,Cerca su Republike
 search.prompt.body,"Find people, posts and hashtags.","Trouvez des personnes, des posts et des hashtags.","Trova persone, post e hashtag.","Encuentra personas, publicaciones y hashtags.",Body of the initial search prompt
 search.empty.title,No results,Aucun résultat,Nessun risultato,Sin resultados,Empty-state title when a search returns nothing
 search.empty.body,Try a different search.,Essayez une autre recherche.,Prova una ricerca diversa.,Prueba otra búsqueda.,Empty-state body when a search returns nothing
+search.empty.posts.title,No posts match your search,Aucune publication ne correspond à votre recherche,Nessun post corrisponde alla tua ricerca,Ninguna publicación coincide con tu búsqueda,"Search no-results title on the Publications tab (RN common.emptyStates.search.postsTitle)"
+search.empty.posts.body,Try a different keyword or phrase.,Essayez un autre mot-clé ou une autre phrase.,Prova con un'altra parola chiave o frase.,Prueba con otra palabra clave o frase.,"Search no-results body on the Publications tab (RN common.emptyStates.search.postsSubtitle)"
+search.empty.people.title,No accounts found,Aucun compte trouvé,Nessun account trovato,No se encontraron cuentas,"Search no-results title on the Comptes tab (RN common.emptyStates.search.usersTitle)"
+search.empty.people.body,Try a different name or @handle.,Essayez un autre nom ou @identifiant.,Prova con un altro nome o @handle.,Prueba con otro nombre o @usuario.,"Search no-results body on the Comptes tab (RN common.emptyStates.search.usersSubtitle)"
+search.empty.tags.title,No hashtags found,Aucun hashtag trouvé,Nessun hashtag trovato,No se encontraron hashtags,"Search no-results title on the Tags tab (RN common.emptyStates.search.hashtagsTitle)"
+search.empty.tags.body,Try a different keyword.,Essayez un autre mot-clé.,Prova con un'altra parola chiave.,Prueba con otra palabra clave.,"Search no-results body on the Tags tab (RN common.emptyStates.search.hashtagsSubtitle)"
 search.error.title,Something went wrong,Un problème est survenu,Qualcosa è andato storto,Algo salió mal,Error-state title shown when a search request fails
 search.error.loadFailed,Couldn't run that search.,Impossible d'effectuer la recherche.,Impossibile eseguire la ricerca.,No se pudo realizar la búsqueda.,Error-state body when a search request fails
 search.hashtag.name,#{name},#{name},#{name},#{name},"Hashtag name shown as the title of a hashtag search result ({name} placeholder, no localised text)"

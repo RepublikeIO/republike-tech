@@ -9,12 +9,14 @@ composer.repost.commentRequired,A repost needs a comment,Une republication doit 
 composer.action.reply,Reply,Répondre,Rispondi,Responder,mt: Submit button in the reply composer (fr/it/es)
 composer.action.repost,Repost,Republier,Riposta,Republicar,mt: Submit button in the repost composer (fr/it/es)
 composer.addPhoto,Add photo,Ajouter une photo,Aggiungi foto,Añadir foto,mt: Button that opens the photo picker in the composer (fr/it/es)
-composer.visibility.public,Public,Public,Pubblico,Público,"Read-only visibility pill on the composer author row (Figma E01 ""DA/Auteur de la publication""); the E08 picker is not wired yet (fr/it/es)"
+composer.visibility.public,Public,Public,Pubblico,Público,"Public visibility: the composer author-row pill (Figma E01 ""DA/Auteur de la publication"") and the E08 privacy-modal option (it/es mt)"
+composer.visibility.private,Private,Privé,Privato,Privado,"Private visibility: the composer author-row pill and the E08 privacy-modal option (Figma E08 ""Privé""); only offered with post:create:private (it/es mt)"
+composer.privacy.title,Privacy settings,Paramètres de confidentialité,Impostazioni sulla privacy,Ajustes de privacidad,"E08 privacy modal title (Figma ""DA/Modale / Confidentialité""), opened from the composer visibility pill (it/es mt)"
 composer.reply.inReplyTo,Replying to {handle},En réponse à {handle},In risposta a {handle},En respuesta a {handle},"Reply-context line above the editor (Figma E04); {handle} is the @username being replied to (fr/it/es)"
 composer.poll.add,Add poll,Ajouter un sondage,Aggiungi sondaggio,Añadir encuesta,mt: Button that adds a poll to the composer (fr/it/es)
 composer.poll.remove,Remove poll,Supprimer le sondage,Rimuovi sondaggio,Quitar encuesta,mt: Button that removes the poll from the composer (fr/it/es)
 composer.poll.optionPlaceholder,Option,Option,Opzione,Opción,mt: Placeholder for a poll option field (fr/it/es)
-composer.poll.addOption,Add option,Ajouter une option,Aggiungi opzione,Añadir opción,mt: Button that adds another poll option (fr/it/es)
+composer.poll.addOption,Add another option,Ajouter une autre option,Aggiungi un'altra opzione,Añadir otra opción,"Poll editor link that adds another option (Figma E03 ""Ajouter une autre option""); hidden at 4 options (it/es mt)"
 composer.poll.duration,Poll length,Durée du sondage,Durata del sondaggio,Duración de la encuesta,mt: Label for the poll-duration picker (fr/it/es)
 composer.poll.duration.oneDay,1 day,1 jour,1 giorno,1 día,mt: Poll duration option — one day (fr/it/es)
 composer.poll.duration.threeDays,3 days,3 jours,3 giorni,3 días,mt: Poll duration option — three days (fr/it/es)
@@ -28,3 +30,5 @@ composer.success.posted,Posted,Publié,Pubblicato,Publicado,mt: Confirmation aft
 composer.success.replied,Reply sent,Réponse envoyée,Risposta inviata,Respuesta enviada,mt: Confirmation after sending a reply (fr/it/es)
 composer.success.edited,Post updated,Publication mise à jour,Post aggiornato,Publicación actualizada,mt: Confirmation after editing a post (fr/it/es)
 composer.success.reposted,Reposted,Republié,Ripostato,Republicado,mt: Confirmation after reposting (fr/it/es)
+composer.takePhoto,Take a photo,Prendre une photo,Scatta una foto,Hacer una foto,"Accessibility label of the composer toolbar camera glyph (Figma ""DA/Barre d'outils de création"" camera-line) (it/es mt)"
+composer.poll.removeOption,Remove option,Supprimer l'option,Rimuovi opzione,Quitar opción,"Accessibility label of the close glyph on a removable poll option, from option 3 on (Figma E03) (it/es mt)"

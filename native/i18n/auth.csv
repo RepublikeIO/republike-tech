@@ -16,6 +16,12 @@ auth.newPassword,New password,Nouveau mot de passe,Nuova password,Nueva contrase
 auth.landing.signIn,Sign in,Se connecter,Accedi,Iniciar sesión,Secondary CTA on the landing screen
 auth.landing.getStarted,Sign up,S'inscrire,Registrati,Registrarse,Primary CTA on the landing screen
 auth.landing.tagline,Conversation beyond the conventional,La conversation au-delà du conventionnel,Conversazione oltre il convenzionale,Conversación más allá de lo convencional,Tagline shown on the landing carousel
+auth.landing.slide1.title,Welcome to Republike,Bienvenue chez Republike,Benvenuto su Republike,Bienvenido a Republike,Landing carousel slide 1 title
+auth.landing.slide1.subtitle,The social network that belongs to us,Le réseau social qui nous appartient,Il social network che ci appartiene,La red social que nos pertenece,Landing carousel slide 1 subtitle
+auth.landing.slide2.title,"Here, citizens decide","Ici, les citoyens décident",Qui decidono i cittadini,Aquí deciden los ciudadanos,Landing carousel slide 2 title
+auth.landing.slide2.subtitle,"When content is sent to moderation, seven randomly drawn Citizens decide together.","Lorsqu'un contenu est soumis à modération, sept Citoyens tirés au sort décident ensemble.","Quando un contenuto viene sottoposto a moderazione, sette Cittadini estratti a sorte decidono insieme.","Cuando un contenido se somete a moderación, siete Ciudadanos elegidos al azar deciden juntos.",Landing carousel slide 2 subtitle
+auth.landing.slide3.title,"Here, you're not the product","Ici, vous n'êtes pas le produit",Qui non sei il prodotto,Aquí no eres el producto,Landing carousel slide 3 title
+auth.landing.slide3.subtitle,"Republike is funded by its members, and we answer to you.","Republike est financé par ses membres, c'est à vous qu'on rend des comptes.","Republike è finanziato dai suoi membri: è a te che rispondiamo.","Republike se financia con sus miembros; es a ti a quien rendimos cuentas.",Landing carousel slide 3 subtitle
 auth.login.title,Sign in,Connexion,Accedi,Iniciar sesión,Heading on the login screen
 auth.login.dataPrivacy,We'll not use your data at any point,Nous n'utiliserons jamais vos données,Non useremo mai i tuoi dati,Nunca usaremos tus datos,Reassurance subtitle on the login screen
 auth.login.noAccount,Don't have an account?,Pas encore de compte ?,Non hai un account?,¿No tienes una cuenta?,Prompt above the register link on login
@@ -51,3 +57,37 @@ auth.reset.title,Reset password,Réinitialiser le mot de passe,Reimposta passwor
 auth.reset.success,Password reset successful.,Réinitialisation du mot de passe réussie.,Reimpostazione della password riuscita.,Restablecimiento de contraseña exitoso.,Toast after a successful password reset
 auth.reset.linkExpired,This reset link has expired.,Ce lien de réinitialisation a expiré.,Questo link di reimpostazione è scaduto.,Este enlace de restablecimiento ha caducado.,mt: Shown when the reset deep-link token is expired (it/es)
 auth.reset.requestNewLink,Request a new link,Demander un nouveau lien,Richiedi un nuovo link,Solicitar un nuevo enlace,mt: Button to request a fresh reset link after expiry (it/es)
+auth.reset.submit,Submit,Soumettre,Invia,Enviar,Submit CTA on the reset-password screen
+auth.email.placeholder,name@example.com,name@example.com,name@example.com,name@example.com,Email form field placeholder
+auth.register.ageTitle,What is your date of birth?,Quelle est votre date de naissance ?,Qual è la tua data di nascita?,¿Cuál es tu fecha de nacimiento?,Title on the signup age step (B01)
+auth.register.ageSubtitle,"For limited social media use, Republike is only available from age 18.","Pour un usage limité des réseaux sociaux, Republike n'est accessible qu'à partir de 18 ans.","Per un uso limitato dei social media, Republike è accessibile solo dai 18 anni.","Para un uso limitado de las redes sociales, Republike solo está disponible a partir de los 18 años.",Subtitle on the signup age step (B01)
+auth.register.agePrivacy,"Private information, never shared.","Information à titre privé, jamais diffusée.","Informazione privata, mai divulgata.","Información privada, nunca compartida.",Privacy helper under the date field (B01)
+auth.register.ageInvalidDate,"Please enter a valid date of birth (day, month, year).","Veuillez saisir une date de naissance valide (jour, mois, année).","Inserisci una data di nascita valida (giorno, mese, anno).","Introduce una fecha de nacimiento válida (día, mes, año).",Invalid-date error on the signup age step (B01)
+auth.register.ageUnder18,You must be at least 18 years old to join Republike.,Vous devez avoir au moins 18 ans pour rejoindre Republike.,Devi avere almeno 18 anni per unirti a Republike.,Debes tener al menos 18 años para unirte a Republike.,Under-18 error on the signup age step (B01)
+auth.register.emailTitle,What is your email address?,Quelle est votre adresse mail ?,Qual è il tuo indirizzo email?,¿Cuál es tu dirección de correo electrónico?,Title on the signup email step (B02)
+auth.register.emailSubtitle,We'll send you a verification code,Nous vous enverrons un code de vérification,Ti invieremo un codice di verifica,Te enviaremos un código de verificación,Subtitle on the signup email step (B02)
+auth.register.codeTitle,Enter the code,Entrez le code,Inserisci il codice,Introduce el código,Title on the signup email-OTP step (B03)
+auth.register.codeSubtitle,6-digit code sent to your email address.,Code à 6 chiffres envoyé à votre adresse mail.,Codice a 6 cifre inviato al tuo indirizzo email.,Código de 6 dígitos enviado a tu correo electrónico.,Subtitle on the signup email-OTP step (B03)
+auth.register.resendPrompt,Didn't receive the code?,Vous n'avez pas reçu le code ?,Non hai ricevuto il codice?,¿No recibiste el código?,Resend-line prompt on the signup OTP step (B03)
+auth.register.resendAction,Resend,Renvoyer,Invia di nuovo,Reenviar,Resend tap label on the signup OTP step (B03)
+auth.register.resendActionCountdown,Resend ({seconds}),Renvoyer ({seconds}),Invia di nuovo ({seconds}),Reenviar ({seconds}),Resend tap label during cooldown on the signup OTP step (B03)
+auth.register.verifyCode,Verify,Vérifier,Verifica,Verificar,Verify CTA on the signup OTP step (B03)
+auth.register.invalidCode,Invalid or expired code. Please try again.,Code invalide ou expiré. Veuillez réessayer.,Codice non valido o scaduto. Riprova.,Código no válido o caducado. Inténtalo de nuevo.,Invalid-code error on the signup OTP step (B03)
+auth.register.passwordTitle,Choose a password,Choisissez un mot de passe,Scegli una password,Elige una contraseña,Title on the signup password step (B04)
+auth.register.passwordSubtitle,Use at least 8 characters to secure your account.,Utilisez au moins 8 caractères pour sécuriser votre compte.,Usa almeno 8 caratteri per proteggere il tuo account.,Usa al menos 8 caracteres para proteger tu cuenta.,Subtitle on the signup password step (B04)
+auth.register.createAccount,Create an account,Créer un compte,Crea un account,Crear una cuenta,Create-account CTA on the signup password step (B04)
+auth.register.accountExists,Account already exists,Le compte existe déjà,L'account esiste già,La cuenta ya existe,EMAIL_TAKEN error on the signup password step (B04)
+auth.register.phoneTitle,What is your phone number?,Quel est votre numéro de téléphone ?,Qual è il tuo numero di telefono?,¿Cuál es tu número de teléfono?,Title on the signup phone step (B06)
+auth.register.phoneSubtitle,It helps us limit fake accounts and fight online harassment.,Il nous aide à limiter les faux comptes pour lutter contre le harcèlement en ligne.,Ci aiuta a limitare gli account falsi e a combattere le molestie online.,Nos ayuda a limitar las cuentas falsas y combatir el acoso en línea.,Subtitle on the signup phone step (B06)
+auth.register.phoneLabel,Phone number,Numéro de téléphone,Numero di telefono,Número de teléfono,Phone-number field label on the signup phone step (B06)
+auth.register.phonePlaceholder,Phone number,Numéro de téléphone,Numero di telefono,Número de teléfono,Phone-number field placeholder on the signup phone step (B06)
+auth.register.phoneInvalid,Invalid phone number.,Numéro de téléphone invalide.,Numero di telefono non valido.,Número de teléfono no válido.,Invalid-phone error on the signup phone step (B06)
+auth.register.phoneNext,Receive the code,Recevoir le code,Ricevi il codice,Recibir el código,Primary CTA on the signup phone step (B06)
+auth.register.verifyNotConfigured,Verification is not configured on this environment.,La vérification n'est pas configurée sur cet environnement.,La verifica non è configurata su questo ambiente.,La verificación no está configurada en este entorno.,SMS verification-not-configured error on the signup phone step (B06/B08)
+auth.register.phoneStartFailed,Something went wrong. Please try again.,Une erreur est survenue. Veuillez réessayer.,Si è verificato un errore. Riprova.,Algo salió mal. Inténtalo de nuevo.,Generic SMS send-failure error on the signup phone step (B06/B08)
+auth.register.countryPickerTitle,Country code,Indicatif pays,Prefisso internazionale,Código de país,Title on the country-code picker sheet (B07)
+auth.register.countrySearchPlaceholder,Search country or code,Rechercher un pays ou un indicatif,Cerca un paese o un prefisso,Buscar país o código,Search-field placeholder on the country-code picker sheet (B07)
+auth.register.phoneCodeTitle,Enter the code,Entrez le code,Inserisci il codice,Introduce el código,Title on the signup SMS-OTP step (B08)
+auth.register.phoneCodeSubtitle,We sent a 6-digit code by SMS to verify your number.,Nous avons envoyé un code à 6 chiffres par SMS pour vérifier votre numéro.,Abbiamo inviato un codice a 6 cifre via SMS per verificare il tuo numero.,Enviamos un código de 6 dígitos por SMS para verificar tu número.,Subtitle on the signup SMS-OTP step (B08)
+auth.register.phoneCodeSentTo,Sent to {phone},Envoyé au {phone},Inviato al {phone},Enviado al {phone},"Masked-phone confirmation line on the signup SMS-OTP step (B08); {phone} is interpolated"
+auth.register.phoneCodeEdit,Edit,Modifier,Modifica,Editar,Edit-phone link on the signup SMS-OTP step (B08)
