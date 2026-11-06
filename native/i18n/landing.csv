@@ -1,0 +1,2 @@
+key,en,fr,it,es,context
+auth.landing.pageIndicator,Slide {{current}} of {{total}},Diapositive {{current}} sur {{total}},Slide {{current}} di {{total}},Diapositiva {{current}} de {{total}},"mt: Screen-reader value of the landing intro carousel pagination dots (SCRUM-465; no RN string, RN dots are unlabelled; fr/it/es machine-translated)"
