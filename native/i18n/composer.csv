@@ -32,3 +32,9 @@ composer.success.edited,Post updated,Publication mise à jour,Post aggiornato,Pu
 composer.success.reposted,Reposted,Republié,Ripostato,Republicado,mt: Confirmation after reposting (fr/it/es)
 composer.takePhoto,Take a photo,Prendre une photo,Scatta una foto,Hacer una foto,"Accessibility label of the composer toolbar camera glyph (Figma ""DA/Barre d'outils de création"" camera-line) (it/es mt)"
 composer.poll.removeOption,Remove option,Supprimer l'option,Rimuovi opzione,Quitar opción,"Accessibility label of the close glyph on a removable poll option, from option 3 on (Figma E03) (it/es mt)"
+composer.link.title,Insert link,Insérer un lien,Inserisci un link,Insertar enlace,"E07 insert-link modal title (Figma ""DA/Modale / Insérer un lien"" 105:8274), also the composer toolbar link glyph label (it/es mt)"
+composer.link.textLabel,Title,Titre,Titolo,Título,"E07 insert-link modal: label of the optional link text field (it/es mt)"
+composer.link.textPlaceholder,Optional,Facultatif,Facoltativo,Opcional,"E07 insert-link modal: placeholder of the optional link text field (it/es mt)"
+composer.link.urlLabel,Link,Lien,Link,Enlace,"E07 insert-link modal: label of the URL field (it/es mt)"
+composer.link.urlPlaceholder,https://,https://,https://,https://,"E07 insert-link modal: placeholder of the URL field"
+composer.link.insert,Insert,Insérer,Inserisci,Insertar,"E07 insert-link modal: confirm button (it/es mt)"
