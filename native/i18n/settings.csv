@@ -36,6 +36,7 @@ settings.delete.stripeCancelFailed,"We couldn't cancel your subscription right n
 settings.delete.queueFailed,The deletion couldn't be completed. Try again.,La suppression n'a pas pu aboutir. Réessayez.,Non è stato possibile completare l'eliminazione. Riprova.,No se pudo completar la eliminación. Inténtalo de nuevo.,"mt: Toast when user.deleteAccount fails with ACCOUNT_DELETION_QUEUE_FAILED — account not deleted, retry is safe (SCRUM-461; en/it/es)"
 edit.title,Edit profile,Modifier,Modifica profilo,Editar perfil,"mt: Navigation title of the edit-profile screen (fr ""Modifier"" per DA H03)"
 edit.save,Save,Enregistrer,Salva,Guardar,"mt: Save button on the edit-profile form (fr/it/es; from RN common.save)"
+edit.saveChanges,Save changes,Enregistrer les modifications,Salva le modifiche,Guardar cambios,"Pinned save button on the edit-profile screen (DA H04; en/fr from RN common.profile.saveChanges, matches Android; mt: it/es)"
 edit.avatarLabel,Profile photo,Photo de profil,Foto profilo,Foto de perfil,"mt: Caption above the tappable avatar on the edit-profile form (fr/it/es)"
 edit.changePhoto,Change photo,Changer la photo,Cambia foto,Cambiar foto,"mt: Tappable caption under the avatar to pick a new photo (fr/it/es)"
 edit.field.firstName,First name,Prénom,Nome,Nombre,"mt: Edit-profile form field label (fr/it/es)"
