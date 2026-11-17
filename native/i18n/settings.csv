@@ -75,7 +75,7 @@ edit.error.invalidLastName,Invalid character in the last name,Caractère invalid
 menu.open,Open menu,Ouvrir le menu,Apri il menu,Abrir el menú,"mt: Accessibility label of the feed top-bar hamburger that opens the DA 09 menu (I01, SCRUM-456; fr/it/es)"
 menu.close,Close menu,Fermer le menu,Chiudi il menu,Cerrar el menú,"mt: Accessibility label of the close glyph on the DA 09 menu (I01, SCRUM-456; en from RN HamburgerMenuScreen; fr/it/es)"
 menu.symbol,Republike,Republike,Republike,Republike,"Accessibility label of the Republike symbol at the top of the menu / settings screens (I01/I02, SCRUM-456; proper noun)"
-menu.interests,My interests,Mes Intérêts,I miei interessi,Mis intereses,"mt: DA 09 menu row → My interests (I01, SCRUM-456; en/fr from RN layout.menu.myInterest, fr per DA Figma; it/es)"
+menu.interests,My interests,Mes intérêts,I miei interessi,Mis intereses,"mt: DA 09 menu row → My interests (I01, SCRUM-456; en/fr from RN layout.menu.myInterest, fr per DA Figma; it/es)"
 menu.feedback,Give us feedback,Donnez-nous votre avis,Dacci il tuo parere,Danos tu opinión,"mt: DA 09 menu footer row → opens the feedback board (I01, SCRUM-456; fr from RN layout.menu.giveUsFeedbacks; it/es)"
 menu.contact,Contact us,Contactez-nous,Contattaci,Contáctanos,"mt: DA 09 menu footer row → e-mails the team (I01, SCRUM-456; en/fr from RN layout.menu.contactUs; it/es)"
 settings.row.notifications,Notifications,Notifications,Notifiche,Notificaciones,mt: I02 settings row → notification preferences (SCRUM-456; en/fr from RN common.hamburgerMenu.notifications; it/es)
