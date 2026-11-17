@@ -237,3 +237,5 @@ feed.qualification.label.action,Motivating,Motivant,Motivante,Motivador,"mt: Qua
 feed.qualification.label.resonance,Funny,Drôle,Divertente,Divertido,"mt: Qualification label for the RESONANCE answer (SCRUM-494, Figma 671:7384; it/es machine-translated)"
 feed.qualification.statsTitle,Reactions,Réactions,Reazioni,Reacciones,"mt: Title of the sheet listing every qualification label of a post with its count (SCRUM-494, Figma J05 151:7070; it/es machine-translated)"
 feed.qualification.showDetails,Show reaction details,Voir le détail des réactions,Mostra i dettagli delle reazioni,Ver el detalle de las reacciones,"mt: Accessibility hint on the qualification summary under a post, which opens the Réactions sheet (SCRUM-494; it/es machine-translated)"
+feed.qualification.replies.one,{{count}} reply,{{count}} réponse,{{count}} risposta,{{count}} respuesta,"mt: Qualification summary tail, one reply (Figma 671:7384 Sage ""· 12 réponses""; it/es)"
+feed.qualification.replies.other,{{count}} replies,{{count}} réponses,{{count}} risposte,{{count}} respuestas,"mt: Qualification summary tail, replies (Figma 671:7384 Sage ""· 12 réponses""; it/es)"
