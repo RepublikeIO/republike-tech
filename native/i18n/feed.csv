@@ -15,6 +15,7 @@ feed.empty.forYou.body,Follow citizens whose voice you care about — their post
 feed.empty.retry,Retry,Réessayer,Riprova,Reintentar,Retry button on the feed error/empty state (from RN feedListEmpty.retry)
 feed.error.loadFailed,Couldn't load the feed.,Impossible de charger le fil.,Impossibile caricare il feed.,No se pudo cargar el feed.,mt: Shown when the feed batch request fails (fr/it/es)
 feed.post.contentDeleted,This content has been deleted,Ce contenu a été supprimé,Questo contenuto è stato eliminato,Este contenido ha sido eliminado,"Placeholder for a removed post in the feed (from RN feed.contentHasBeenDeleted)"
+feed.post.deletedAuthor,Deleted user,Utilisateur supprimé,Utente eliminato,Usuario eliminado,"Author name shown on a post/reply whose member deleted their account (SCRUM-512, same wording as web); no handle, generic avatar, author not tappable"
 feed.post.underModeration,Under moderation,En cours de modération,In fase di moderazione,En moderación,"mt: Badge on a post awaiting moderation (it/es; fr from RN post.underModeration)"
 feed.post.readMore,Read more,Lire la suite,Leggi di più,Leer más,"Inline expander appended to a collapsed long post body (from RN common.post.readMore)"
 feed.post.bookmarkComingSoon,Bookmarks coming soon,Favoris bientôt disponibles,I segnalibri arrivano presto,Los marcadores llegan pronto,"mt: Snackbar when a user taps the bookmark action on a feed post (bookmark mutation deferred) (fr/it/es)"
