@@ -1,9 +1,9 @@
 key,en,fr,it,es,context
 notifications.title,Notifications,Notifications,Notifiche,Notificaciones,Navigation title of the Notifications inbox / tab
 notifications.markAllRead,Mark all as read,Tout marquer comme lu,Segna tutte come lette,Marcar todas como leídas,Trailing action that marks the whole inbox read
-notifications.someone,Someone,Quelqu'un,Qualcuno,Alguien,Fallback actor name in a notification line when the author is unknown
+notifications.someone,Someone,Quelqu’un,Qualcuno,Alguien,Fallback actor name in a notification line when the author is unknown
 notifications.empty.title,No notifications yet,Aucune notification,Nessuna notifica,Sin notificaciones,Empty-state title for the notifications inbox
-notifications.empty.body,"When people react, reply or follow you, you'll see it here.","Quand d'autres réagissent, répondent ou vous suivent, cela apparaîtra ici.","Quando qualcuno reagisce, risponde o ti segue, lo vedrai qui.","Cuando alguien reacciona, responde o te sigue, lo verás aquí.",Empty-state body for the notifications inbox
+notifications.empty.body,"When people react, reply or follow you, you'll see it here.","Quand d’autres réagissent, répondent ou vous suivent, cela apparaîtra ici.","Quando qualcuno reagisce, risponde o ti segue, lo vedrai qui.","Cuando alguien reacciona, responde o te sigue, lo verás aquí.",Empty-state body for the notifications inbox
 notifications.error.title,Something went wrong,Un problème est survenu,Qualcosa è andato storto,Algo salió mal,Error-state title when the inbox fails to load
 notifications.error.loadFailed,Couldn't load your notifications.,Impossible de charger vos notifications.,Impossibile caricare le notifiche.,No se pudieron cargar tus notificaciones.,Error-state body when the inbox fails to load
 notifications.kind.follow,{name} started following you.,{name} suit désormais votre profil.,{name} ha iniziato a seguirti.,{name} empezó a seguirte.,Notification line for a new follower (name placeholder; DA Figma G05)
@@ -22,10 +22,10 @@ notifications.kind.generic,You have a new notification,Vous avez une nouvelle no
 notifications.tab.all,All,Toutes,Tutte,Todas,Inbox tab — every notification (DA Figma G05 tab Toutes)
 notifications.tab.unread,Unread,Non lus,Non lette,No leídas,Inbox tab — unread notifications only (DA Figma G06 tab Non lus)
 notifications.tab.moderation,Moderation,Modération,Moderazione,Moderación,Inbox tab — jury / moderation notifications (DA Figma G07 tab Modération)
-notifications.moreActions,More options,Plus d'options,Altre opzioni,Más opciones,mt: Accessibility label of the inbox header more-line menu (it/es)
+notifications.moreActions,More options,Plus d’options,Altre opzioni,Más opciones,mt: Accessibility label of the inbox header more-line menu (it/es)
 notifications.action.markRead,Mark as read,Marquer comme lu,Segna come letta,Marcar como leída,mt: Swipe action that marks one notification read (DA Figma G08; it/es)
 notifications.action.delete,Delete,Supprimer,Elimina,Eliminar,mt: Swipe action that deletes one notification (DA Figma G08; it/es)
-notifications.action.failed,That didn't work. Please try again.,L'action n'a pas abouti. Réessayez.,Operazione non riuscita. Riprova.,No se pudo completar. Inténtalo de nuevo.,mt: Snackbar when a swipe action (mark read / delete) fails and the row is restored (it/es)
+notifications.action.failed,That didn't work. Please try again.,L’action n’a pas abouti. Réessayez.,Operazione non riuscita. Riprova.,No se pudo completar. Inténtalo de nuevo.,mt: Snackbar when a swipe action (mark read / delete) fails and the row is restored (it/es)
 notifications.desc.follow,started following you.,suit désormais votre profil.,ha iniziato a seguirti.,empezó a seguirte.,mt: Description line under the actor's name for a new follower (DA Figma G05; it/es)
 notifications.desc.comment,commented on your post.,a commenté votre publication.,ha commentato la tua pubblicazione.,comentó tu publicación.,mt: Description line under the actor's name for a reply on the viewer's post (DA Figma G05; it/es)
 notifications.desc.commentMention,mentioned you in a reply.,vous a mentionné dans une réponse.,ti ha menzionato in una risposta.,te mencionó en una respuesta.,mt: Description line under the actor's name for a mention in a reply (it/es)
