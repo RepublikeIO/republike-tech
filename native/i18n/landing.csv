@@ -1,2 +1,3 @@
 key,en,fr,it,es,context
 auth.landing.pageIndicator,Slide {{current}} of {{total}},Diapositive {{current}} sur {{total}},Slide {{current}} di {{total}},Diapositiva {{current}} de {{total}},"mt: Screen-reader value of the landing intro carousel pagination dots (SCRUM-465; no RN string, RN dots are unlabelled; fr/it/es machine-translated)"
+auth.landing.alreadyHaveAccount,I already have an account,J’ai déjà un compte,Ho già un account,Ya tengo una cuenta,"mt: Text link under Continuer on the intro slides A01 / A02, opens Login (SCRUM-522; fr from Figma 967:267; en/it/es)"
