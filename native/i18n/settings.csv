@@ -39,12 +39,7 @@ edit.save,Save,Enregistrer,Salva,Guardar,"mt: Save button on the edit-profile fo
 edit.saveChanges,Save changes,Enregistrer les modifications,Salva le modifiche,Guardar cambios,"Pinned save button on the edit-profile screen (DA H04; en/fr from RN common.profile.saveChanges, matches Android; mt: it/es)"
 edit.avatarLabel,Profile photo,Photo de profil,Foto profilo,Foto de perfil,"mt: Caption above the tappable avatar on the edit-profile form (fr/it/es)"
 edit.changePhoto,Change photo,Changer la photo,Cambia foto,Cambiar foto,"mt: Tappable caption under the avatar to pick a new photo (fr/it/es)"
-edit.field.firstName,First name,Prénom,Nome,Nombre,"mt: Edit-profile form field label (fr/it/es)"
-edit.field.lastName,Last name,Nom de famille,Cognome,Apellido,"Edit-profile form field label (fr ""Nom de famille"" per DA H04; mt: it/es)"
-edit.field.username,Username,Nom d’utilisateur,Nome utente,Nombre de usuario,mt: Edit-profile form field label (fr/it/es)
-edit.field.usernameNote,Your unique name is chosen at sign-up and cannot be changed.,Votre nom unique est choisi à la création du compte et n’est pas modifiable.,Il tuo nome unico viene scelto alla creazione dell'account e non può essere modificato.,Tu nombre único se elige al crear la cuenta y no se puede cambiar.,Helper text under the read-only username field (DA H04; en/fr from RN common.registerFlow.handleLockedHelper; mt: it/es)
 edit.field.bio,Bio,Biographie,Biografia,Biografía,"Edit-profile bio field label (fr ""Biographie"" per DA H04; mt: it/es)"
-edit.field.language,Language,Langue,Lingua,Idioma,"mt: Edit-profile language preference picker label (reuses settings.row.language copy)"
 edit.bio.counter,{{count}}/280,{{count}}/280,{{count}}/280,{{count}}/280,"Character counter under the bio field (280-char max); count is interpolated"
 edit.saveFailed,Couldn’t save your changes. Try again.,Impossible d’enregistrer vos modifications. Réessayez.,Impossibile salvare le modifiche. Riprova.,No se pudieron guardar tus cambios. Inténtalo de nuevo.,mt: Toast shown when an optimistic profile save is reverted after the API call fails (fr/it/es)
 edit.saved,Profile updated,Profil mis à jour,Profilo aggiornato,Perfil actualizado,"mt: Toast shown after a successful profile save (fr/it/es)"
@@ -53,7 +48,6 @@ plan.freeCitizen,Visitor,Visiteur,Visitatore,Visitante,mt: Subscription plan tit
 plan.citizen,Citizen,Citoyen,Cittadino,Ciudadano,"mt: Subscription plan title — CITIZEN (fr/it/es)"
 plan.foundingCitizen,Founding Citizen,Citoyen Fondateur,Cittadino Fondatore,Ciudadano Fundador,mt: Subscription plan title — FOUNDING_CITIZEN (SCRUM-462 scope update 2026-11-04; en/fr from the ticket; it/es)
 plan.foundingFather,"Citizen, Constituent offer","Citoyen, offre Constituant","Cittadino, offerta Costituente","Ciudadano, oferta Constituyente",mt: Subscription plan title — FOUNDING_FATHER (SCRUM-462 scope update 2026-11-04; en/fr from the ticket; it/es)
-plan.foundingConsul,Founding Consul,Consul fondateur,Console fondatore,Cónsul fundador,"mt: Subscription plan title — FOUNDING_CONSUL (fr/it/es; known i18n gap flagged in Phase 7 — now sourced here)"
 lang.en,English,Anglais,Inglese,Inglés,"mt: Language picker option — English (fr/it/es)"
 lang.fr,French,Français,Francese,Francés,"mt: Language picker option — French (fr/it/es)"
 lang.it,Italian,Italien,Italiano,Italiano,"mt: Language picker option — Italian (fr/it/es)"
@@ -68,10 +62,6 @@ settings.delete.typeConfirm.placeholder,I am sure…,Je suis certain(e)…,Sono 
 edit.changeBanner,Change,Modifier,Modifica,Cambiar,"Button over the banner on the edit-profile screen (DA H03; en from RN common.profile.change; fr/it/es mt)"
 edit.bannerLabel,Banner,Bannière,Banner,Banner,"Section label above the banner picker on the edit-profile screen (DA H04; en/fr from RN common.profile.banner; mt: it/es)"
 edit.languagesRow,Languages · {{language}},Langues · {{language}},Lingue · {{language}},Idiomas · {{language}},"Edit-profile row opening the language settings; language is the current interface language name (DA H04; mt: it/es)"
-edit.error.required,This field is required,Ce champ est obligatoire,Questo campo è obbligatorio,Este campo es obligatorio,"Edit-profile last-name error: empty (RN common.profileCompletionForm.fieldRequired; mt: it/es)"
-edit.error.minLength,Must be 2 characters minimum,Doit contenir 2 caractères minimum,Deve contenere almeno 2 caratteri,Debe tener al menos 2 caracteres,"Edit-profile last-name error: under 2 characters (RN common.profileCompletionForm.mustBe2charMin; mt: it/es)"
-edit.error.maxLength,Must be 20 characters maximum,Doit contenir 20 caractères maximum,Deve contenere al massimo 20 caratteri,Debe tener como máximo 20 caracteres,"Edit-profile last-name error: over 20 characters (RN common.profileCompletionForm.mustBe20charMax; mt: it/es)"
-edit.error.invalidLastName,Invalid character in the last name,Caractère invalide dans le nom,Carattere non valido nel cognome,Carácter no válido en el apellido,"Edit-profile last-name error: only letters, spaces and hyphens allowed (RN common.profileCompletionForm.invalidCharLastname; mt: it/es)"
 menu.open,Open menu,Ouvrir le menu,Apri il menu,Abrir el menú,"mt: Accessibility label of the feed top-bar hamburger that opens the DA 09 menu (I01, SCRUM-456; fr/it/es)"
 menu.close,Close menu,Fermer le menu,Chiudi il menu,Cerrar el menú,"mt: Accessibility label of the close glyph on the DA 09 menu (I01, SCRUM-456; en from RN HamburgerMenuScreen; fr/it/es)"
 menu.symbol,Republike,Republike,Republike,Republike,"Accessibility label of the Republike symbol at the top of the menu / settings screens (I01/I02, SCRUM-456; proper noun)"
