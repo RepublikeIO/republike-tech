@@ -16,6 +16,6 @@ search.empty.people.body,Try a different name or @handle.,Essayez un autre nom o
 search.empty.tags.title,No hashtags found,Aucun hashtag trouvé,Nessun hashtag trovato,No se encontraron hashtags,"Search no-results title on the Tags tab (RN common.emptyStates.search.hashtagsTitle)"
 search.empty.tags.body,Try a different keyword.,Essayez un autre mot-clé.,Prova con un'altra parola chiave.,Prueba con otra palabra clave.,"Search no-results body on the Tags tab (RN common.emptyStates.search.hashtagsSubtitle)"
 search.error.title,Something went wrong,Un problème est survenu,Qualcosa è andato storto,Algo salió mal,Error-state title shown when a search request fails
-search.error.loadFailed,Couldn't run that search.,Impossible d’effectuer la recherche.,Impossibile eseguire la ricerca.,No se pudo realizar la búsqueda.,Error-state body when a search request fails
+search.error.loadFailed,Couldn’t run that search.,Impossible d’effectuer la recherche.,Impossibile eseguire la ricerca.,No se pudo realizar la búsqueda.,Error-state body when a search request fails
 search.hashtag.name,#{name},#{name},#{name},#{name},"Hashtag name shown as the title of a hashtag search result ({name} placeholder, no localised text)"
 search.hashtag.postCount,{count} posts,{count} publications,{count} post,{count} publicaciones,Subtitle on a hashtag search result showing its publication count (count placeholder)
