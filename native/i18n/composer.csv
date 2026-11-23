@@ -31,6 +31,9 @@ composer.success.replied,Reply sent,Réponse envoyée,Risposta inviata,Respuesta
 composer.success.edited,Post updated,Publication mise à jour,Post aggiornato,Publicación actualizada,mt: Confirmation after editing a post (fr/it/es)
 composer.success.reposted,Reposted,Republié,Ripostato,Republicado,mt: Confirmation after reposting (fr/it/es)
 composer.takePhoto,Take a photo,Prendre une photo,Scatta una foto,Hacer una foto,"Accessibility label of the composer toolbar camera glyph (Figma ""DA/Barre d'outils de création"" camera-line) (it/es mt)"
+composer.camera.deniedTitle,Camera access is off,Accès à l’appareil photo désactivé,Accesso alla fotocamera disattivato,Acceso a la cámara desactivado,"Alert title when the composer camera is tapped but camera access was refused (no Figma frame) (it/es mt)"
+composer.camera.deniedBody,Allow camera access in Settings to take a photo.,Autorisez l’accès à l’appareil photo dans Réglages pour prendre une photo.,Consenti l’accesso alla fotocamera in Impostazioni per scattare una foto.,Permite el acceso a la cámara en Ajustes para hacer una foto.,"Alert body when camera access was refused (no Figma frame) (it/es mt)"
+composer.camera.openSettings,Open Settings,Ouvrir Réglages,Apri Impostazioni,Abrir Ajustes,"Alert button that opens the app’s system Settings to allow the camera (it/es mt)"
 composer.poll.removeOption,Remove option,Supprimer l’option,Rimuovi opzione,Quitar opción,"Accessibility label of the close glyph on a removable poll option, from option 3 on (Figma E03) (it/es mt)"
 composer.link.title,Insert link,Insérer un lien,Inserisci un link,Insertar enlace,"E07 insert-link modal title (Figma ""DA/Modale / Insérer un lien"" 105:8274), also the composer toolbar link glyph label (it/es mt)"
 composer.link.textLabel,Title,Titre,Titolo,Título,"E07 insert-link modal: label of the optional link text field (it/es mt)"
