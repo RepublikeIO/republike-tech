@@ -30,8 +30,6 @@ feed.reaction.aggressive,Aggressive,Agressif,Aggressivo,Agresivo,Reaction label 
 feed.reaction.deceptive,Deceptive,Trompeur,Ingannevole,Engañoso,Reaction label (enum DECEPTIVE; from RN reactions.confusing)
 feed.reaction.unverifiable,Unverifiable,Invérifiable,Non verificabile,No verificable,Reaction label (enum UNVERIFIABLE; from RN reactions.unverifiable)
 feed.reaction.failed,Your highlight couldn’t be sent. Please try again.,Votre qualification n’a pas pu être envoyée. Réessayez.,Non è stato possibile inviare la tua qualificazione. Riprova.,No se pudo enviar tu calificación. Inténtalo de nuevo.,Error shown in the qualification panel when sending fails (SCRUM-543)
-feed.tip.comingSoon,Tips coming soon,Pourboires bientôt disponibles,Le mance arrivano presto,Las propinas llegan pronto,mt: Snackbar shown when an eligible user taps the tip trigger (tip flow deferred) (fr/it/es)
-feed.tip.upgradeNeeded,Upgrade to unlock tips,Améliorez votre plan pour débloquer les pourboires,Esegui l'upgrade per sbloccare le mance,Mejora tu plan para desbloquear las propinas,"mt: Toast shown when a user without the tips:give capability taps the tip trigger (it/es; from RN feed.tipUpgradeRequired)"
 post.detail.title,Post,Publication,Post,Publicación,"mt: Navigation title of the post-detail screen (it/es; fr from RN post.post)"
 post.detail.backToPost,Back to post,Retour à la publication,Torna al post,Volver a la publicación,"mt: Link back to the parent post from a reply thread (it/es; fr from RN post.backToPost)"
 post.detail.readMore,Read more,Lire la suite,Leggi di più,Leer más,"mt: Expander on the full post in the detail view (it/es; from RN post.readMore)"
